@@ -1,7 +1,8 @@
 Tâches
-- Conception du PCB
+- Conception du PCB (determiner quels composants il nous faut, les choisir, faire le KiCad)
 - Station au sol (écran+raspberry pi)
 - Canette (impression 3D...)
+- Réfléchir à la mécanique de largage de parachute
 
 
 Composants qu'on pourrait demander à ST :
