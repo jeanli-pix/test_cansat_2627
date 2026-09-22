@@ -4,6 +4,7 @@ Iftene CHERFI
 Jean-Bosco LINOT
 Lou-jane HARTMANN
 Lucie Panossian
+Florence Jin
 	
 ## Date : 
 *21 septembre 2026*
