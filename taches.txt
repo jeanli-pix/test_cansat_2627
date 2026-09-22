@@ -12,3 +12,5 @@ Composants qu'on pourrait demander à ST :
 - moteur
 - NE555
 - LM581 (recommandé par le crack)
+- accéléromètre
+- GNSS
