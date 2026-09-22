@@ -14,3 +14,7 @@ Composants qu'on pourrait demander à ST :
 - LM581 (recommandé par le crack)
 - accéléromètre
 - GNSS
+
+
+
+Dimensions écran : 23,5*18,3*12cm
