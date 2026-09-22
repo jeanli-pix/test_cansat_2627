@@ -1,0 +1,13 @@
+Tâches
+- Conception du PCB
+- Station au sol (écran+raspberry pi)
+- Canette (impression 3D...)
+
+
+Composants qu'on pourrait demander à ST :
+- écran
+- processeur
+- BMS
+- moteur
+- NE555
+- LM581 (recommandé par le crack)
