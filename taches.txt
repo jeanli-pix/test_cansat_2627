@@ -18,3 +18,9 @@ Composants qu'on pourrait demander à ST :
 
 
 Dimensions écran : 23,5*18,3*12cm
+
+Séance du 29/09/26 : 
+
+Tâches du jour:
+- Mécanique : design (recherche 3D, biomimétisme
+- KiCad : savoir comment se compose le PCB, schéma (connections,...)
