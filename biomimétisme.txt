@@ -1,2 +1,13 @@
 Recherches sur le biomimétisme (29/09) : 
 
+Il nous faut imiter, s'inspirer de la nature dans l'architecture du Cansat (mécanisme, forme, texture,...). 
+
+Plusieurs idées sont envisageables : 
+
+- Ailes de papillon : les ailes en forme de papillon seraient fermées sur elles mêmes à l'intérieur du Cansat et maintenues ainsi avec la pression des autres composants (obstacles), puis avec un système de roue crantée sortiraient du Cansat et puisque plus rien ne les maintient, se déploieraient. 
+Problèmes : on se sait où mettre l'astronaute pour que ça reste stable
+
+- Ailes de libellule : c'est exactement le même principe mais les ailes ne s'ouvrent pas lorsqu'elles sortent, ce qui nous permet de positionner Alexei en bout d'aile. On hésite entre 3 mécanismes : roue crantée, actionneur servo-moteur, technique de la trompe du papillon
+
+- Ailes d'écureuil volant : les ailes rentreraient simplement à l'intérieur coupant le Cansat dans le plan frontal (plan coronal). Elles suivraient la forme arrondie du Cansat. 
+Problèmes : on les 'enroulerait' autour du Cansat de telle sorte qu'une fois déployées elles auraient des courbures différentes.
