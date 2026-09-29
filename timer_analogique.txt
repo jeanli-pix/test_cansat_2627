@@ -1,1 +1,34 @@
-Timer analogique
+Timer analogique:
+
+Mission:  3 secondes après le largage l'astronaute est éjecté.
+
+étape 1: ADXL335 un accéléromètre analogique 3 axes 
+
+On détecte entre 1,95 à 1,65
+
+étape 2: utilisation d’un filtre passe bas: Pour filtrer les vibrations (> 50 Hz) et laisser passer la chute (~2 Hz), on choisit fc ≈ 10 Hz. fc= 1 / (2πRC)
+R = 10 kΩ, C = 1,6 µF → fc = 1 / (2π × 10⁴ × 1,6 × 10⁻⁶) ≈ 10 Hz. 
+
+étape 3: Utilisation d’un comparateur. 
+Le comparateur compare la tension filtrée à une tension de référence Vref. Le comparateur délivre : 0 V si Vfiltrée > Vref, 5 V si Vfiltrée < Vref.
+On veut détecter le passage de 1,95 V (repos) à 1,65 V (chute). On peut prendre Vref = 1,80 V. 
+
+étape 4: Pour avoir cette tension de ref Vref on peut utiliser un pont diviseur de tension, deux résistances en série entre le +5 V et la masse (GND) 
+R1 = 10 kΩ, R2 = 5,6 kΩ, Vref = 5 × 5,6 / (10 + 5,6) = 5 × 5,6 / 15,6 = 1,79 V 
+
+On sait que du coup le cansat a été largué faut les 3 secondes maintenant
+
+étape 5: circuit RC
+On veut t = 3 s. On choisit Vref2 = 3,15 V (63 % de 5 V), et R × C = 3 s.
+R = 1 MΩ, C = 3 µF → t = 1 000 000 × 0,000003 = 3 s.  
+
+étape 6:
+Deuxième comparateur: compare Vc et bascule quand Vc dépasse Vref2 = 3,15 V. 
+Donc à t = 3 s, la sortie du comparateur 2 passe à 5 V. Pour faire éjecter le système.
+
+étape 7: Pareil pont div de tension pour avoir Vref2
+
+→ Ajouter une résistance de rétroaction (R3 = 1 MΩ) entre la sortie du comparateur 1 et son entrée +, pour créer une hystérésis de ~100 mV, pour éviter que le comparateur bascule en permanence quand Vfiltrée est proche de Vref.
+
+La suite dépend de l’actionneur qu’on va mettre en place 
+
