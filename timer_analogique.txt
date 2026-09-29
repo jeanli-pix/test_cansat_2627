@@ -1,5 +1,25 @@
 Timer analogique:
 
+On présente les 3 façons de faire qui existent pour ce timer analogique : LDR, accéléromètre et pression.
+
+# LDR (PHOTORÉSISTANCE)
+
+**Mission :** 3 secondes après la sortie de la fusée (détection de la lumière du jour), l'astronaute est éjecté.
+
+* **Étape 1 : Pont diviseur avec LDR**  
+  * LDR montée en pont diviseur avec une résistance fixe $R$.  
+  * Dans le noir (dans la fusée) : $R_{LDR}$ très élevée $\rightarrow V_{LDR} \approx 0\text{ V}$.  
+  * À la lumière (largage) : $R_{LDR}$ chute fortement $\rightarrow V_{LDR} \approx 4{,}5\text{ V}$.
+
+* **Étape 2 : Comparateur de seuil**  
+  * Compare $V_{LDR}$ à une tension $V_{ref1} \approx 2{,}5\text{ V}$.  
+  * Bascule à $5\text{ V}$ dès que le CanSat sort au jour.
+
+* **Étapes 3 à 5 : Temporisateur RC & Second comparateur**  
+  * Identiques aux méthodes Pression et Accéléromètre (circuit RC $1\text{ M}\Omega \times 3\text{ }\mu\text{F}$ pour compter $3\text{ s}$).
+
+
+ACCELEROMETRE
 Mission:  3 secondes après le largage l'astronaute est éjecté.
 
 étape 1: ADXL335 un accéléromètre analogique 3 axes 
@@ -30,5 +50,47 @@ Donc à t = 3 s, la sortie du comparateur 2 passe à 5 V. Pour faire éjecter le
 
 → Ajouter une résistance de rétroaction (R3 = 1 MΩ) entre la sortie du comparateur 1 et son entrée +, pour créer une hystérésis de ~100 mV, pour éviter que le comparateur bascule en permanence quand Vfiltrée est proche de Vref.
 
-La suite dépend de l’actionneur qu’on va mettre en place 
+La suite dépend de l’actionneur qu’on va mettre en place.
 
+
+PRESSION
+# Système de Déclenchement Analogique par Pression (Altimétrique)
+
+## Mission
+3 secondes après la détection de l'altitude seuil (ou du début de la descente), l'astronaute est éjecté.
+
+### Étape 1 : Capteur de pression analogique
+* Utilisation d'un capteur de pression analogique (ex: série MPX/MPXA).
+* Le capteur convertit la pression atmosphérique en une tension analogique $V_{capteur}$.
+* En montant (ascension), la pression diminue et la tension varie ; en descendant, la pression augmente.
+
+### Étape 2 : Utilisation d’un filtre passe-bas
+* Pour filtrer les turbulences d'air et le bruit aérodynamique dû au vol, on choisit un filtre RC passe-bas avec une fréquence de coupure $f_c \approx 10\text{ Hz}$.
+* Formula : $f_c = \frac{1}{2\pi RC}$
+* **Valeurs :** $R = 10\text{ k}\Omega$, $C = 1{,}6\text{ }\mu\text{F} \rightarrow f_c = \frac{1}{2\pi \times 10^4 \times 1{,}6 \times 10^{-6}} \approx 10\text{ Hz}$.
+
+### Étape 3 : Utilisation d’un comparateur avec hystérésis
+* Le comparateur (AOP / LM393) compare la tension filtrée $V_{filtrée}$ à une tension de référence $V_{ref1}$ correspondant à l'altitude de déclenchement souhaitée.
+* Le comparateur délivre $0\text{ V}$ ou $5\text{ V}$ lors du franchissement du seuil $V_{ref1}$.
+* **Ajout d'une résistance de rétroaction ($R_3 = 1\text{ M}\Omega$)** entre la sortie et l'entrée `+` pour créer une hystérésis (~100 mV) et éviter que le comparateur bascule en permanence à cause des petites fluctuations de pression.
+
+### Étape 4 : Tension de référence $V_{ref1}$ réglable
+* Utilisation d'un **potentiomètre ajustable** (ou pont diviseur) entre $+5\text{ V}$ et la masse (GND).
+* Permet de régler facilement $V_{ref1}$ sur le terrain le jour du lancement en fonction de la pression météo au sol et de l'altitude visée.
+
+> **Note :** On sait que le CanSat a atteint l'altitude seuil / entamé sa descente, il faut maintenant compter les 3 secondes.
+
+### Étape 5 : Circuit RC (Timer)
+* On veut un délai $t = 3\text{ s}$.
+* On choisit $V_{ref2} = 3{,}15\text{ V}$ (63 % de $5\text{ V}$), et $R \times C = 3\text{ s}$.
+* **Valeurs :** $R = 1\text{ M}\Omega$, $C = 3\text{ }\mu\text{F} \rightarrow t = 1\text{ }000\text{ }000 \times 0{,}000003 = 3\text{ s}$.
+
+### Étape 6 : Deuxième comparateur
+* Compare la tension du condensateur $V_c$ et bascule quand $V_c$ dépasse $V_{ref2} = 3{,}15\text{ V}$.
+* À $t = 3\text{ s}$, la sortie du comparateur 2 passe à $5\text{ V}$ pour envoyer l'ordre d'éjection du système.
+
+### Étape 7 : Deuxième pont diviseur de tension
+* Deux résistances en série entre $+5\text{ V}$ et la masse (GND) pour fixer $V_{ref2} = 3{,}15\text{ V}$.
+* **Valeurs :** $R_1 = 10\text{ k}\Omega$, $R_2 = 17\text{ k}\Omega \rightarrow V_{ref2} = 5 \times \frac{17}{10 + 17} \approx 3{,}15\text{ V}$.
+
+*La suite dépend de l’actionneur qui sera mis en place.*
