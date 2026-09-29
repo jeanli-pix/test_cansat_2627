@@ -1,6 +1,6 @@
 Séance du 29/09/26 : 
 
-Tâches du jour:
+Tâches du jour par ordre d'importance :
 - Stratégie (comment on va faire sortir l'astronaute,...)
 - Mécanique : design (recherche 3D, biomimétisme)
 - KiCad : savoir comment se compose le PCB, schéma (schéma UML, connections,...)
@@ -8,7 +8,16 @@ Tâches du jour:
 Assignations : 
 - Stratégie de développement : tous 
 - Recherche sur le biomimétisme : Lou-Jane 
-- Recherche sur Timer en analogique
+- Recherche sur Timer en analogique : Lucie
 - Schéma UML : Jean
 - Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane
+- Recherche sur la sortie de l'astronaute
 - 
+
+
+Stratégie de développement : 
+- Garder le même système de déploiement de parachute que l'année dernière (dropchutes)
+- ## Déployer le bras qui sort d'un porte battante (évite les actionneurs pour la porte)
+
+Biomimétisme : 
+
