@@ -1,1 +1,3 @@
-MECANIQUE
+MÉCANIQUE
+
+Le cansat est dans un volume de 80 mm sur 200 mm de haut.
