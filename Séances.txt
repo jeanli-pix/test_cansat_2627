@@ -1,5 +1,22 @@
 Séance du 29/09/26 : 
 
-Tâches du jour:
+Tâches du jour par ordre d'importance :
+- Stratégie (comment on va faire sortir l'astronaute,...)
 - Mécanique : design (recherche 3D, biomimétisme)
-- KiCad : savoir comment se compose le PCB, schéma (connections,...)
+- KiCad : savoir comment se compose le PCB, schéma (schéma UML, connections,...)
+
+Assignations : 
+- Stratégie de développement : tous 
+- Recherche sur le biomimétisme : Lou-Jane 
+- Recherche sur Timer en analogique : Lucie et Florence
+- Schéma UML : Jean
+- Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane
+- Recherche sur la sortie de l'astronaute
+
+
+
+
+
+
+
+
