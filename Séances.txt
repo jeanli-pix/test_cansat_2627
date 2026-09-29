@@ -1,5 +1,5 @@
 Séance du 29/09/26 : 
 
 Tâches du jour:
-- Mécanique : design (recherche 3D, biomimétisme
+- Mécanique : design (recherche 3D, biomimétisme)
 - KiCad : savoir comment se compose le PCB, schéma (connections,...)
