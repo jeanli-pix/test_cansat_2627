@@ -2,4 +2,4 @@ MÉCANIQUE
 
 Le cansat est dans un volume maximal de 80 mm sur 200 mm de haut.
 Ce qu'on veut : max 33cL.
-On peut partir sur les dimensions d'une cannette basique, cependant il faudrait probablement un fuselage plus haut, mais plus petit en diamètre.
+On peut partir sur les dimensions d'une cannette classique (66mm*116mm), cependant il faudrait probablement un fuselage plus haut, mais plus petit en diamètre.
