@@ -11,7 +11,7 @@ Assignations :
 - Recherche sur Timer en analogique : Lucie et Florence
 - Schéma UML : Jean
 - Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane
-- Recherche sur la sortie de l'astronaute
+- Recherche sur la sortie de l'astronaute : Iftene
 
 
 
