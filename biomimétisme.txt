@@ -14,3 +14,6 @@ Problèmes : on les 'enroulerait' autour du Cansat de telle sorte qu'une fois d�
 
 - Langue du caméléon : une sorte de bras télescopique sortirait du fuselage en imitant le mouvement d'une langue de caméléon, au bout serait l'astronaute. 
 Problèmes : système plus complexe à faire
+
+Il a été décidé de partir sur le système d'ailes de libellule.
+
