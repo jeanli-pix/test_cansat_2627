@@ -8,16 +8,15 @@ Tâches du jour par ordre d'importance :
 Assignations : 
 - Stratégie de développement : tous 
 - Recherche sur le biomimétisme : Lou-Jane 
-- Recherche sur Timer en analogique : Lucie
+- Recherche sur Timer en analogique : Lucie et Florence
 - Schéma UML : Jean
 - Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane
 - Recherche sur la sortie de l'astronaute
-- 
 
 
-Stratégie de développement : 
-- Garder le même système de déploiement de parachute que l'année dernière (dropchutes)
-- ## Déployer le bras qui sort d'un porte battante (évite les actionneurs pour la porte)
 
-Biomimétisme : 
+
+
+
+
 
