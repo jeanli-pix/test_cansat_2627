@@ -10,4 +10,7 @@ Problèmes : on se sait où mettre l'astronaute pour que ça reste stable
 - Ailes de libellule : c'est exactement le même principe mais les ailes ne s'ouvrent pas lorsqu'elles sortent, ce qui nous permet de positionner Alexei en bout d'aile. On hésite entre 3 mécanismes : roue crantée, actionneur servo-moteur, technique de la trompe du papillon
 
 - Ailes d'écureuil volant : les ailes rentreraient simplement à l'intérieur coupant le Cansat dans le plan frontal (plan coronal). Elles suivraient la forme arrondie du Cansat. 
-Problèmes : on les 'enroulerait' autour du Cansat de telle sorte qu'une fois déployées elles auraient des courbures différentes.
+Problèmes : on les 'enroulerait' autour du Cansat de telle sorte qu'une fois déployées elles auraient des courbures différentes. Où serait placé Alexei ? 
+
+- Langue du caméléon : une sorte de bras télescopique sortirait du fuselage en imitant le mouvement d'une langue de caméléon, au bout serait l'astronaute. 
+Problèmes : système plus complexe à faire
