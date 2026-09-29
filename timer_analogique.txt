@@ -2,6 +2,10 @@ Timer analogique:
 
 On présente les 3 façons de faire qui existent pour ce timer analogique : LDR, accéléromètre et pression.
 
+On partirait plutôt sur la méthode LDR :
+- la moins volumineuse de toutes
+- Florence en a à la maison
+
 # LDR (PHOTORÉSISTANCE)
 
 **Mission :** 3 secondes après la sortie de la fusée (détection de la lumière du jour), l'astronaute est éjecté.
