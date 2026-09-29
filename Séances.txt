@@ -5,13 +5,13 @@ Tâches du jour par ordre d'importance :
 - Mécanique : design (recherche 3D, biomimétisme)
 - KiCad : savoir comment se compose le PCB, schéma (schéma UML, connections,...)
 
-Assignations : 
-- Stratégie de développement : tous 
-- Recherche sur le biomimétisme : Lou-Jane 
-- Recherche sur Timer en analogique : Lucie et Florence
-- Schéma UML : Jean
-- Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane
-- Recherche sur la sortie de l'astronaute : Iftene
+Assignations (état à la fin de la séance) : 
+- Stratégie de développement : tous (fait)
+- Recherche sur le biomimétisme : Lou-Jane (fait)
+- Recherche sur Timer en analogique : Lucie et Florence (fait)
+- Schéma UML : Jean (en cours)
+- Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane (non fait)
+- Recherche sur la sortie de l'astronaute : Iftene (en cours)
 
 
 
