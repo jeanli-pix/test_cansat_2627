@@ -3,3 +3,24 @@ MÉCANIQUE
 Le cansat est dans un volume maximal de 80 mm sur 200 mm de haut.
 Ce qu'on veut : max 33cL.
 On peut partir sur les dimensions d'une cannette classique (66mm*116mm), cependant il faudrait probablement un fuselage plus haut, mais plus petit en diamètre.
+
+
+
+
+
+Le circuit pneumatique (L'énergie)
+
+Le réservoir :  Un micro-cylindre (par exemple un corps de vérin pneumatique industriel) équipé d'une valve de type Schrader. Vous le mettrez sous pression avec une pompe manuelle entre 6 et 8 bars avant le vol, ce qui garantit le respect de la limite stricte de 10 bars (REQ 7).   
+
+L'électrovanne : Une micro-valve 2/2 Normalement Fermée (NF) alimentée en 5V ou 12V, ce qui est largement en dessous du plafond réglementaire de 30V (REQ 8).   
+
+
+
+Le tube et le Lego (La mécanique)
+
+
+Le muscle pneumatique : Un tube souple, fin et inélastique (Mylar ou toile enduite TPU) soigneusement plié à l'intérieur de la canette. Son embase est fixée et étanchéifiée sur la sortie de l'électrovanne.
+
+L'éjection : L'astronaute en Lego est fixé à l'extrémité fermée de ce tube. Lorsque la vanne s'ouvre, la pression gonfle le tube qui se déroule et se rigidifie instantanément, expulsant le Lego.La sécurité : Le tube sert de lien d'attache structurel. 
+
+Le Lego reste solidaire du CanSat, ce qui valide parfaitement l'obligation réglementaire de retenir tout élément éjecté (REQ 16). 
