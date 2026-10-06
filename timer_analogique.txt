@@ -40,7 +40,7 @@ On veut détecter le passage de 1,95 V (repos) à 1,65 V (chute). On peut prendr
 étape 4: Pour avoir cette tension de ref Vref on peut utiliser un pont diviseur de tension, deux résistances en série entre le +5 V et la masse (GND) 
 R1 = 10 kΩ, R2 = 5,6 kΩ, Vref = 5 × 5,6 / (10 + 5,6) = 5 × 5,6 / 15,6 = 1,79 V 
 
-On sait que du coup le cansat a été largué faut les 3 secondes maintenant
+On sait que du coup le cansat a été largué, faut les 3 secondes maintenant.
 
 étape 5: circuit RC
 On veut t = 3 s. On choisit Vref2 = 3,15 V (63 % de 5 V), et R × C = 3 s.
