@@ -13,7 +13,7 @@ Assignations (état à la fin de la séance) :
 - Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane (non fait)
 - Recherche sur la sortie de l'astronaute : Iftene (en cours)
 
-Séance du 06/09/26 :
+Séance du 06/10/26 :
 
 Tâches du jour par ordre d'importance :
 - Mécanique : valve, aire dans le tube, mécanisme 
@@ -22,10 +22,12 @@ Tâches du jour par ordre d'importance :
 
 Assignations (état à la fin de la séance) : 
 - Choisir biomimétisme et mécanisme: tous (fait)
-- Schéma sur N255 : Lucie et Florence (en cours)
+- Schéma sur N255 : Lucie et Florence (fait)
 - Recherche KiCad du projet de l'année dernière : Lou-Jane (en cours)
 - Schéma UML : Jean (fait)
 - Recherche sur des exemples de valve : Iftene (en cours)
 
-
-
+Séance du 20/10/26 :
+- Recherche KiCad du projet de l'année dernière et commencement du KiCad : Lou-Jane et Jean
+- Recherche système de trompe du papillon : Iftene
+- Recherche sur le dimensionnement et l'architecture du Cansat : Lucie et Florence
