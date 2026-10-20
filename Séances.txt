@@ -22,10 +22,10 @@ Tâches du jour par ordre d'importance :
 
 Assignations (état à la fin de la séance) : 
 - Choisir biomimétisme et mécanisme: tous (fait)
-- Schéma sur N255 : Lucie et Florence
-- Recherche KiCad du projet de l'année dernière : Lou-Jane
-- Schéma UML : Jean
-- Recherche sur des exemples de valve : Iftene 
+- Schéma sur N255 : Lucie et Florence (en cours)
+- Recherche KiCad du projet de l'année dernière : Lou-Jane (en cours)
+- Schéma UML : Jean (fait)
+- Recherche sur des exemples de valve : Iftene (en cours)
 
 
 
