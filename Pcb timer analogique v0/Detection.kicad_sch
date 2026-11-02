@@ -533,7 +533,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Comparator:LM393"
+		(symbol "Amplifier_Operational:MCP601-xP"
 			(pin_names
 				(offset 0.127)
 			)
@@ -543,26 +543,51 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP601-xP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf"
 				(at 3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM393"
-				(at 6.35 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Description" "Single 2.7V to 6.0V Single Supply CMOS Op Amps, DIP-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -573,7 +598,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(property "ki_keywords" "single opamp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -584,7 +609,7 @@
 					)
 				)
 			)
-			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(property "ki_fp_filters" "DIP*W7.62mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -595,39 +620,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp open collector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM393_1_1"
+			(symbol "MCP601-xP_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -640,23 +633,13 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
+			)
+			(symbol "MCP601-xP_1_1"
+				(pin no_connect line
+					(at -5.08 -2.54 90)
 					(length 2.54)
-					(name ""
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,89 +690,6 @@
 						)
 					)
 				)
-			)
-			(symbol "LM393_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -808,10 +708,66 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1520,6 +1476,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Hystéresis\n"
+		(exclude_from_sim no)
+		(at 171.196 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5547f0d3-49dd-43af-9f35-aad78c666681")
+	)
 	(text "Pont diviseur de tension qui délivre du 5V\n"
 		(exclude_from_sim no)
 		(at 173.228 32.512 0)
@@ -1532,23 +1498,13 @@
 	)
 	(text "Résistance pull up\n"
 		(exclude_from_sim no)
-		(at 180.34 72.39 0)
+		(at 188.214 89.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "b963ab07-1e40-452b-9fc1-38fae6429160")
-	)
-	(text "Hystéresis\n"
-		(exclude_from_sim no)
-		(at 164.846 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bb07a052-fbfd-4933-8df1-69f4b1c63da4")
 	)
 	(junction
 		(at 113.03 59.69)
@@ -1557,22 +1513,22 @@
 		(uuid "064a20d5-4c6d-40be-8ff4-2f87163c914b")
 	)
 	(junction
-		(at 170.18 69.85)
+		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9311de54-9033-43a4-9abf-830dd87d2fa5")
+		(uuid "4063f561-0ea2-4ce8-953d-d9f69f0bec26")
+	)
+	(junction
+		(at 175.26 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5a45ac-b2c4-4541-b2b3-6f816c0c4eef")
 	)
 	(junction
 		(at 171.45 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98b74814-135f-44f7-ad06-88aa2573e8d8")
-	)
-	(junction
-		(at 147.32 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "debc9388-41eb-4539-b65d-5c1acaab0caa")
 	)
 	(no_connect
 		(at 113.03 74.93)
@@ -1583,56 +1539,32 @@
 		(uuid "29cc8627-9eed-4a62-a256-a7d7c949a250")
 	)
 	(no_connect
-		(at 113.03 69.85)
-		(uuid "4b43aa3b-6a3a-4d7a-b297-b0016c607028")
-	)
-	(no_connect
 		(at 82.55 74.93)
 		(uuid "6f216a63-42e9-49b6-9df4-c04f50d7b8de")
 	)
 	(no_connect
-		(at 165.1 92.71)
-		(uuid "7585a3ff-b86c-45cd-9093-f11f0bdc5ce4")
+		(at 113.03 67.31)
+		(uuid "789d9695-f19e-4b37-80aa-5370c89a2dee")
 	)
 	(wire
 		(pts
-			(xy 147.32 67.31) (xy 148.59 67.31)
+			(xy 175.26 87.63) (xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0344f25c-689f-4111-8389-0416eec19ffc")
+		(uuid "39d62bc8-bad1-4101-979f-2edb0df0fa29")
 	)
 	(wire
 		(pts
-			(xy 163.83 69.85) (xy 170.18 69.85)
+			(xy 147.32 85.09) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07548a1e-e645-4a15-8f73-9c03236f5230")
-	)
-	(wire
-		(pts
-			(xy 160.02 57.15) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36de1fca-d9ef-42a4-befa-e4825f5eb4e9")
-	)
-	(wire
-		(pts
-			(xy 170.18 69.85) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3746269b-6117-4ecf-ae30-f41f3e1a1e69")
+		(uuid "3b2eddd7-f019-487f-a954-ed566611d271")
 	)
 	(wire
 		(pts
@@ -1646,23 +1578,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 67.31) (xy 124.46 67.31)
+			(xy 118.11 69.85) (xy 123.19 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4296c91c-7555-47ec-9526-a1f520d23a4c")
-	)
-	(wire
-		(pts
-			(xy 170.18 57.15) (xy 170.18 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525bf17b-030c-416d-ab7a-d2ca348386c1")
 	)
 	(wire
 		(pts
@@ -1686,13 +1608,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 147.32 57.15)
+			(xy 161.29 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "606ba128-6b8d-4169-aea0-5656e1ec7149")
+		(uuid "5ffee142-163c-4aee-8e0c-21b33dfa4500")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647c2f18-b997-44c7-b055-c9cccec52389")
 	)
 	(wire
 		(pts
@@ -1706,6 +1638,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8861cf76-4c23-4695-81e5-b0a1e7158aa4")
+	)
+	(wire
+		(pts
 			(xy 171.45 39.37) (xy 171.45 41.91)
 		)
 		(stroke
@@ -1716,23 +1658,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 72.39) (xy 148.59 72.39)
+			(xy 147.32 90.17) (xy 152.4 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abf2ce4e-a8ed-4c2c-9d10-f4e3b830aa34")
+		(uuid "ab0c8dca-348e-4966-9491-393df885012d")
 	)
 	(wire
 		(pts
-			(xy 147.32 57.15) (xy 147.32 67.31)
+			(xy 175.26 87.63) (xy 180.34 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8926f5f-c6e5-4d51-b3f2-4c21fa72cfb5")
+		(uuid "c5154b03-3f93-4c80-9507-f768e4e0c233")
 	)
 	(wire
 		(pts
@@ -1746,23 +1688,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 147.32 67.31)
+			(xy 152.4 76.2) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d43324d5-2cfc-4f9f-8165-8ea113b8697c")
-	)
-	(wire
-		(pts
-			(xy 113.03 67.31) (xy 114.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c06e8e-4c60-474a-8625-c2803afbbaa8")
+		(uuid "daa51ad2-bad8-4337-8ddb-9d0ed865dac0")
 	)
 	(label "Vref"
 		(at 171.45 39.37 180)
@@ -1775,7 +1707,7 @@
 		(uuid "094a993d-715f-489c-9631-5e6405efc546")
 	)
 	(label "V_filtree"
-		(at 124.46 67.31 0)
+		(at 123.19 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1784,29 +1716,29 @@
 		)
 		(uuid "2424acac-72ca-4ac6-bdc6-eb1cec60dd14")
 	)
-	(label "Vref"
-		(at 144.78 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5704c508-a507-4755-8cc6-7d926894a9c6")
-	)
 	(label "V_filtree"
-		(at 144.78 72.39 180)
+		(at 147.32 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d281675b-af07-4d50-a0c1-69335b89292e")
+		(uuid "6a67b7ab-13c5-4c7c-8d17-783ae19e461b")
+	)
+	(label "Vref"
+		(at 147.32 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c68fe792-d7d1-4e18-80e2-bdbc562c0014")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 72.39 0)
+		(at 123.19 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1817,7 +1749,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fb438d9-82e8-4df7-a363-949f4a691fba")
 		(property "Reference" "#PWR04"
-			(at 124.46 78.74 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +1760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 77.47 0)
+			(at 123.19 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1838,7 +1770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 72.39 0)
+			(at 123.19 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1849,7 +1781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 72.39 0)
+			(at 123.19 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1860,7 +1792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 72.39 0)
+			(at 123.19 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,8 +1894,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 173.99 69.85 90)
+		(lib_id "power:+5V")
+		(at 185.42 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1972,19 +1904,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4057aab6-767c-4caf-aac6-55ad9fe3bca1")
-		(property "Reference" "R5"
-			(at 173.99 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 173.99 67.31 90)
+		(uuid "398b40a4-3943-476a-9d4f-74123f5c8764")
+		(property "Reference" "#PWR08"
+			(at 181.61 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1993,8 +1916,19 @@
 				)
 			)
 		)
+		(property "Value" "+5V"
+			(at 189.23 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 173.99 69.85 0)
+			(at 185.42 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +1939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 69.85 0)
+			(at 185.42 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2015,8 +1949,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 173.99 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 185.42 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,17 +1959,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "02c04f31-31c4-4eaa-97b8-0fa31ceb52db")
 		)
 		(pin "1"
-			(uuid "c91bd421-7899-4551-acc6-261414c63c08")
+			(uuid "61be4a9a-e9e6-4f62-8e1d-db756c249b13")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "R5")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2043,7 +1974,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.46 69.85 0)
+		(at 123.19 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2054,7 +1985,7 @@
 		(fields_autoplaced yes)
 		(uuid "48d7453c-56c4-4359-8586-d3d608b01f6f")
 		(property "Reference" "C1"
-			(at 127 68.5862 0)
+			(at 125.73 71.1262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2065,7 +1996,7 @@
 			)
 		)
 		(property "Value" "1.6u"
-			(at 127 71.1262 0)
+			(at 125.73 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2076,7 +2007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 69.85 0)
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2087,7 +2018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 69.85 0)
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,7 +2029,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 69.85 0)
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2433,103 +2364,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 156.21 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7dfa0449-54e4-4aa8-a6e4-dfc4ced758cb")
-		(property "Reference" "U3"
-			(at 158.242 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 158.242 65.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 156.21 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 156.21 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "94eee677-c78d-46b7-bbb0-927abcaa1e88")
-		)
-		(pin "1"
-			(uuid "0c46a014-645e-4685-b167-ab89a5cd3ec0")
-		)
-		(pin "5"
-			(uuid "a8ef6374-b5d4-4b2f-9bde-0ad61264cefd")
-		)
-		(pin "3"
-			(uuid "5fa93102-b337-41ee-a6a8-c1e97c4a5a7c")
-		)
-		(pin "7"
-			(uuid "0a7eb5de-9cc4-4895-9a39-ef708721374f")
-		)
-		(pin "4"
-			(uuid "c5987229-fb96-4f4b-94b8-cb7987291da0")
-		)
-		(pin "8"
-			(uuid "e19f3410-146f-4a99-9b14-b0439c494956")
-		)
-		(pin "2"
-			(uuid "99e3d8a6-852d-419f-b4e9-d038a9d8d7d2")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2876,8 +2710,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 95.25 270)
+		(lib_id "Amplifier_Operational:MCP601-xP")
+		(at 160.02 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2886,9 +2720,41 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ac6f36b-3252-4a94-a901-0b23cbeddfa6")
-		(property "Reference" "#PWR09"
-			(at 143.51 95.25 0)
+		(uuid "a6017c13-1b31-49b6-ab04-58b0f595f505")
+		(property "Reference" "U1"
+			(at 172.72 81.2098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP601-I/P"
+			(at 172.72 83.7498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 157.48 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf"
+			(at 163.83 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2898,19 +2764,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 95.25 0)
+		(property "Description" "Single 2.7V to 6.0V Single Supply CMOS Op Amps, DIP-8"
+			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,35 +2775,34 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 149.86 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "5"
+			(uuid "65a8c8ff-0964-43ca-8e46-a70827974e1e")
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "8"
+			(uuid "ffdf0128-43a4-458f-9ead-bf0407a585fb")
+		)
+		(pin "2"
+			(uuid "ad58adc3-5d36-4fe2-832b-0848517ae2e6")
+		)
+		(pin "7"
+			(uuid "5d670513-f7e1-44d1-90c5-94037d3157e5")
 		)
 		(pin "1"
-			(uuid "c0f3de3d-36db-41b8-b909-005f2471de90")
+			(uuid "a1b92032-c30c-4a28-9d61-8057a0bd8bcc")
+		)
+		(pin "3"
+			(uuid "a4addd46-7987-4420-86be-f0444079c0ff")
+		)
+		(pin "4"
+			(uuid "840331f6-e507-4527-9ab0-ecebc96c3beb")
+		)
+		(pin "6"
+			(uuid "9e7e6f16-e670-487d-9f6b-e8e0cd6a4be6")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "#PWR09")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2956,7 +2810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 157.48 57.15 90)
+		(at 182.88 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2965,9 +2819,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5d3295e-6914-4406-a083-c5ac42e7f66a")
-		(property "Reference" "R4"
-			(at 157.48 52.07 90)
+		(uuid "ca45e586-479b-475c-8e23-f6e679bd1b89")
+		(property "Reference" "R25"
+			(at 182.88 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2976,8 +2830,8 @@
 				)
 			)
 		)
-		(property "Value" "1M"
-			(at 157.48 54.61 90)
+		(property "Value" "10k"
+			(at 182.88 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2987,7 +2841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 57.15 0)
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +2852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 57.15 0)
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +2863,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 157.48 57.15 0)
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,94 +2874,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea163158-61e3-4f58-b9ee-79606c637c74")
+			(uuid "3de5c1f2-32c0-4d45-83dd-18583cd949ff")
 		)
 		(pin "1"
-			(uuid "737b5bfe-36ba-4b9c-9b03-93c8ab96f606")
+			(uuid "7fa47ce4-5594-461a-8c7a-86b0794c9835")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 176.53 69.85 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd9fd989-95bd-44a7-a40c-6c6dd5498ea8")
-		(property "Reference" "#PWR07"
-			(at 172.72 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 180.34 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "490ece8e-7620-4a07-9d80-79a117ffab82")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "#PWR07")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3269,106 +3044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM393")
-		(at 157.48 92.71 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee836799-d430-4989-ade0-6f29aee6ec6f")
-		(property "Reference" "U3"
-			(at 157.48 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 157.48 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 157.48 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 157.48 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "94eee677-c78d-46b7-bbb0-927abcaa1e88")
-		)
-		(pin "1"
-			(uuid "0c46a014-645e-4685-b167-ab89a5cd3ec0")
-		)
-		(pin "5"
-			(uuid "a8ef6374-b5d4-4b2f-9bde-0ad61264cefd")
-		)
-		(pin "3"
-			(uuid "5fa93102-b337-41ee-a6a8-c1e97c4a5a7c")
-		)
-		(pin "7"
-			(uuid "0a7eb5de-9cc4-4895-9a39-ef708721374f")
-		)
-		(pin "4"
-			(uuid "c5987229-fb96-4f4b-94b8-cb7987291da0")
-		)
-		(pin "8"
-			(uuid "e19f3410-146f-4a99-9b14-b0439c494956")
-		)
-		(pin "2"
-			(uuid "99e3d8a6-852d-419f-b4e9-d038a9d8d7d2")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 67.31 90)
+		(at 115.57 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3379,7 +3056,7 @@
 		(fields_autoplaced yes)
 		(uuid "efd5f363-6e65-44ab-bc1b-c6f1d618a743")
 		(property "Reference" "R1"
-			(at 116.84 62.23 90)
+			(at 115.57 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3389,7 +3066,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 116.84 64.77 90)
+			(at 115.57 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3399,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 67.31 0)
+			(at 115.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3410,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 67.31 0)
+			(at 115.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +3098,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 67.31 0)
+			(at 115.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,85 +3118,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f234a530-618a-4db5-b5d0-ee404d97345e")
-		(property "Reference" "#PWR08"
-			(at 143.51 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "387bae5a-ebca-46d6-ba53-80440e8a7b57")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3601,6 +3199,86 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6f3b752-ddfb-45b0-9577-7d2d3422b95b")
+		(property "Reference" "R24"
+			(at 164.338 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 163.83 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02dbe5f0-29ac-4b37-947b-4c8a4351e9e9")
+		)
+		(pin "1"
+			(uuid "b856f087-048c-4ee3-b1cb-9a7f5355c8bf")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/e6202dab-0ae5-4c84-b951-73ed71c1f609"
+					(reference "R24")
 					(unit 1)
 				)
 			)

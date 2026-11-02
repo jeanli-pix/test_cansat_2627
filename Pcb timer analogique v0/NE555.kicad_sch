@@ -4,5 +4,5588 @@
 	(generator_version "10.0")
 	(uuid "7ae36895-96c0-4f34-a0d1-47b1d03b3300")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:MMBT2222A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT2222A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBT2222A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT2222A_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_PNP_BEC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PNP_BEC"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PNP transistor, base/emitter/collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PNP_BEC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PNP_BEC_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Out\n"
+		(exclude_from_sim no)
+		(at 69.85 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d6175f9-d781-4db0-8868-926af5688a95")
+	)
+	(text "Trigger\n"
+		(exclude_from_sim no)
+		(at 58.166 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94430201-01ee-4b3e-ab5e-ea22e5e986a9")
+	)
+	(junction
+		(at 190.5 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "032fdda6-b8d9-4213-8e31-aaabbe95f6b1")
+	)
+	(junction
+		(at 85.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08aea0f2-ebe7-425e-b023-ad5255285fae")
+	)
+	(junction
+		(at 242.57 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091937d8-d8d2-4049-8c0a-a9c6cfa4d60b")
+	)
+	(junction
+		(at 69.85 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13240b8d-0059-40ce-9915-ad38c24ae98b")
+	)
+	(junction
+		(at 54.61 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2370052f-c114-492d-9674-0b8c58a07be3")
+	)
+	(junction
+		(at 120.65 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b33b15a-1125-464f-8108-9d55cf8d532d")
+	)
+	(junction
+		(at 168.91 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444e6b3f-adb1-448a-a6eb-f98857713572")
+	)
+	(junction
+		(at 228.6 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45931c6b-d72f-4296-8b12-fe42c9b952df")
+	)
+	(junction
+		(at 214.63 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1a866f-1dad-4720-9b79-6c3322f550de")
+	)
+	(junction
+		(at 114.3 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bf29cac-3690-4873-b6b1-929b9ba9a090")
+	)
+	(junction
+		(at 151.13 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63e1770b-af13-4017-94ec-ac2593333928")
+	)
+	(junction
+		(at 100.33 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d003cd4-56ee-4a13-a760-e591742805a7")
+	)
+	(junction
+		(at 255.27 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "841af8fe-8b28-4503-9167-100658e90877")
+	)
+	(junction
+		(at 144.78 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8848b602-7efb-4245-81a7-ccd5db99daf1")
+	)
+	(junction
+		(at 278.13 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9771557b-c565-421a-934a-c009de4b6b54")
+	)
+	(junction
+		(at 85.09 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97a18005-56d9-49da-a16c-2b5e6be16211")
+	)
+	(junction
+		(at 22.86 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999e9e2d-c204-4920-8381-350349c2a224")
+	)
+	(junction
+		(at 71.12 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba58985-b9ca-4351-85ea-fc6a5613f4fa")
+	)
+	(junction
+		(at 21.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d676dc6-de8c-4699-8e19-483f8170e7d1")
+	)
+	(junction
+		(at 54.61 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b657b9-33b9-4bb4-b3c5-3faf118e9990")
+	)
+	(junction
+		(at 168.91 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad5dd478-6e3f-4b04-b9f8-d9182d2e3f4f")
+	)
+	(junction
+		(at 242.57 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff28ed5-85fb-43e9-b694-d2e434ea8c53")
+	)
+	(junction
+		(at 35.56 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd86908e-c615-4dd7-b4b0-752de1a2e28b")
+	)
+	(junction
+		(at 71.12 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdbed753-7b37-475e-a690-914381bc4e9c")
+	)
+	(junction
+		(at 128.27 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfadfc2a-f26a-403e-a54c-aef2d2896370")
+	)
+	(junction
+		(at 33.02 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c852a469-14cd-4cba-8996-f3766cab8be4")
+	)
+	(junction
+		(at 203.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbd3b21d-2710-4ada-b5b5-4636b845e5ec")
+	)
+	(junction
+		(at 100.33 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdce2fda-cfdc-451b-b1f1-3b27643e9fe9")
+	)
+	(junction
+		(at 228.6 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0858178-f7b1-42c6-83d4-56e72a35d403")
+	)
+	(junction
+		(at 214.63 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ded999-b7cb-4ed2-aa4e-17a601f56a6d")
+	)
+	(junction
+		(at 87.63 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4abd61b-c109-4f10-a25c-47f1e7a0e9c7")
+	)
+	(junction
+		(at 255.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7b896e4-3323-4c9b-9b1b-71bc59698a74")
+	)
+	(junction
+		(at 33.02 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1187ccf-b6ac-4b42-9c7f-c5910e15a15d")
+	)
+	(junction
+		(at 114.3 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9a17135-7f52-4222-873a-2c717452a969")
+	)
+	(junction
+		(at 203.2 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaabea49-235f-4a79-888c-dd9b3f7fb636")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015e5054-40cc-4c9d-ac7a-41ca0c17455a")
+	)
+	(wire
+		(pts
+			(xy 203.2 163.83) (xy 228.6 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0176cf37-43d1-466a-a40f-7070e2b8665e")
+	)
+	(wire
+		(pts
+			(xy 226.06 46.99) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f32ac7-5097-402e-82bb-197a7d280ddc")
+	)
+	(wire
+		(pts
+			(xy 69.85 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9382f9-f34c-4d79-a363-c505b5a62caf")
+	)
+	(wire
+		(pts
+			(xy 92.71 63.5) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e9a709-9405-4907-bc74-97d5ae4ef3fe")
+	)
+	(wire
+		(pts
+			(xy 100.33 19.05) (xy 151.13 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182ee99a-228f-4c86-8ac1-3bad5b15251d")
+	)
+	(wire
+		(pts
+			(xy 100.33 19.05) (xy 71.12 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1841c8f7-4fc9-479a-8d68-2ad933891241")
+	)
+	(wire
+		(pts
+			(xy 71.12 27.94) (xy 71.12 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dde036-479f-4032-be9f-f59d96a998fd")
+	)
+	(wire
+		(pts
+			(xy 109.22 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3b84b2-bb35-447f-8dba-d105a1638aa6")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 100.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6e75d5-fe3d-45b2-86f7-9e176c0e9c55")
+	)
+	(wire
+		(pts
+			(xy 33.02 19.05) (xy 33.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3399b3-ef47-4d32-b8f9-9e52c2970d96")
+	)
+	(wire
+		(pts
+			(xy 21.59 69.85) (xy 33.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9fcc5a-df72-4fd5-8256-430605860263")
+	)
+	(wire
+		(pts
+			(xy 85.09 49.53) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfd283c-08dc-43e0-af2d-d168308e46c2")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208a28dd-2b0a-41d5-8c35-f6e3560cdf4c")
+	)
+	(wire
+		(pts
+			(xy 114.3 129.54) (xy 120.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23faac62-e638-4580-888d-b31296eb2092")
+	)
+	(wire
+		(pts
+			(xy 36.83 52.07) (xy 33.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24243ffc-77e6-4dfa-813c-e6ece2e8b248")
+	)
+	(wire
+		(pts
+			(xy 214.63 25.4) (xy 214.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2487969e-c82f-40b6-9462-619453c9a276")
+	)
+	(wire
+		(pts
+			(xy 242.57 78.74) (xy 246.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbe6593-69be-47e3-b782-96a4203c94e7")
+	)
+	(wire
+		(pts
+			(xy 54.61 152.4) (xy 54.61 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eafde16-7ca7-4540-a946-017787aa26eb")
+	)
+	(wire
+		(pts
+			(xy 153.67 146.05) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3bf4ad-9c09-4612-af6d-cee089f30eed")
+	)
+	(wire
+		(pts
+			(xy 255.27 99.06) (xy 255.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35abf965-b34b-4546-8c3f-1c092b88b3dd")
+	)
+	(wire
+		(pts
+			(xy 278.13 88.9) (xy 278.13 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3622539f-eb0e-42ef-be26-e76ffd16e356")
+	)
+	(wire
+		(pts
+			(xy 69.85 105.41) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a683f2f-0100-421a-a3e6-c2f87ba4d1a0")
+	)
+	(wire
+		(pts
+			(xy 233.68 30.48) (xy 214.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4fd7b7-a44b-49ef-a2c0-08e8b3ad00c4")
+	)
+	(wire
+		(pts
+			(xy 120.65 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c601837-1a55-462f-9372-291038fc99a4")
+	)
+	(wire
+		(pts
+			(xy 22.86 163.83) (xy 35.56 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfa422a-265d-44b0-832a-e5197b314ad1")
+	)
+	(wire
+		(pts
+			(xy 87.63 129.54) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d92d808-de5e-4789-8674-d41c541a9036")
+	)
+	(wire
+		(pts
+			(xy 35.56 78.74) (xy 35.56 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ce9909-048a-4e8c-a745-1b9ab9ddb14a")
+	)
+	(wire
+		(pts
+			(xy 261.62 55.88) (xy 261.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e191e5-b4e5-4a52-9e40-9a67a8adb73f")
+	)
+	(wire
+		(pts
+			(xy 21.59 44.45) (xy 21.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fe9171-7b6c-4b43-af63-e20bb359808f")
+	)
+	(wire
+		(pts
+			(xy 63.5 44.45) (xy 71.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6d3254-86a5-4ec1-8610-a071ecba3a70")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50161780-1026-43f7-aa6d-3b6d55cb55e6")
+	)
+	(wire
+		(pts
+			(xy 33.02 52.07) (xy 33.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ff8aff-ff5b-4d0e-8eaa-e5cf89f9e28c")
+	)
+	(wire
+		(pts
+			(xy 54.61 163.83) (xy 87.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af2b448-6a68-4c72-a120-4480b1656c39")
+	)
+	(wire
+		(pts
+			(xy 104.14 151.13) (xy 69.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbb8d0a-2afc-4910-b425-b6361d4a2763")
+	)
+	(wire
+		(pts
+			(xy 190.5 82.55) (xy 182.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa22cc0-0ec0-4834-b756-0775b0d7d554")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c2fa8f-e5b3-4d39-a841-be6a1231f60e")
+	)
+	(wire
+		(pts
+			(xy 203.2 120.65) (xy 203.2 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633b2c89-16bc-4da6-973c-7a44ee2275ea")
+	)
+	(wire
+		(pts
+			(xy 182.88 82.55) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65099da0-957f-470b-b008-53dd0d3db9d1")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 137.16 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6579e91f-9f4e-4dde-8995-9bd868d4079e")
+	)
+	(wire
+		(pts
+			(xy 109.22 151.13) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a91820-e221-4f22-a5d6-692e9a60a5c8")
+	)
+	(wire
+		(pts
+			(xy 137.16 49.53) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6745db5b-19a0-402b-a078-55fb055efff6")
+	)
+	(wire
+		(pts
+			(xy 254 73.66) (xy 254 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67dc59e1-be9b-41d9-b6f6-1118e6d7faa0")
+	)
+	(wire
+		(pts
+			(xy 247.65 120.65) (xy 247.65 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad48740-5566-4480-b09e-782b5c023d6d")
+	)
+	(wire
+		(pts
+			(xy 247.65 146.05) (xy 228.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb8d87b-86d6-404b-a0f2-36663fec24af")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3312da-cd90-424a-89fe-05f4ebde4ecb")
+	)
+	(wire
+		(pts
+			(xy 190.5 41.91) (xy 190.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6766e4-289b-4e8c-a89c-09c02ead7090")
+	)
+	(wire
+		(pts
+			(xy 254 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f3c720-af5d-496a-b7a5-a3885db609d6")
+	)
+	(wire
+		(pts
+			(xy 201.93 146.05) (xy 214.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777b6e5f-9d24-4c50-adf7-82008b3b9132")
+	)
+	(wire
+		(pts
+			(xy 255.27 99.06) (xy 281.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780a0630-9a55-48de-bf26-0d641c4dcf31")
+	)
+	(wire
+		(pts
+			(xy 233.68 52.07) (xy 242.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787fb1f5-39e9-46a2-9e08-4735147f4351")
+	)
+	(wire
+		(pts
+			(xy 175.26 72.39) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cf82ce-fef0-426b-985f-4079ab934a8b")
+	)
+	(wire
+		(pts
+			(xy 228.6 163.83) (xy 255.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b828171-0979-4c91-8dc6-9cbf183326ab")
+	)
+	(wire
+		(pts
+			(xy 22.86 167.64) (xy 22.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d571543-34c7-4835-b532-d9fd29757ddd")
+	)
+	(wire
+		(pts
+			(xy 21.59 39.37) (xy 21.59 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6d9b05-19cb-4d3a-a58f-786b2f1a196d")
+	)
+	(wire
+		(pts
+			(xy 267.97 88.9) (xy 278.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d73e255-c129-4c2c-896f-1f5d9a3ccfea")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 255.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1f8e21-2507-4318-8cc9-f5454a603975")
+	)
+	(wire
+		(pts
+			(xy 69.85 151.13) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82da31e9-5ea1-4be4-82a6-e565164cf0a9")
+	)
+	(wire
+		(pts
+			(xy 151.13 24.13) (xy 151.13 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838b40de-03aa-4ce0-9913-01a4d52d9c5a")
+	)
+	(wire
+		(pts
+			(xy 21.59 163.83) (xy 21.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85913a51-49c4-4469-83bc-9d5ec026765d")
+	)
+	(wire
+		(pts
+			(xy 267.97 73.66) (xy 254 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88261349-9c43-4f53-bc4c-80a44a0d3207")
+	)
+	(wire
+		(pts
+			(xy 226.06 76.2) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8920eff4-2aee-4dc9-bd73-ff2034f22dd3")
+	)
+	(wire
+		(pts
+			(xy 190.5 30.48) (xy 214.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f45b1ad-9946-4b3b-9e94-162acd51ba12")
+	)
+	(wire
+		(pts
+			(xy 100.33 34.29) (xy 100.33 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9683daf4-9604-4b12-9236-4e681773e16a")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e256ae-d3c0-4bd0-a2e0-71425aa77352")
+	)
+	(wire
+		(pts
+			(xy 80.01 139.7) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9802d1fe-a2bb-4ff6-8661-7617a02c638c")
+	)
+	(wire
+		(pts
+			(xy 85.09 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a329871-decf-44fc-a7a3-dee028b505fb")
+	)
+	(wire
+		(pts
+			(xy 214.63 19.05) (xy 281.94 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ada2a54-25a0-4930-a898-fd673c7022d5")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb8249e-efe4-4bbc-b129-46a9d775ac4e")
+	)
+	(wire
+		(pts
+			(xy 69.85 139.7) (xy 54.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29817eb-040b-4d3f-861b-893771f438b7")
+	)
+	(wire
+		(pts
+			(xy 35.56 78.74) (xy 85.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3252051-f791-48c0-8392-df8fbc0dd860")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a6d598-97ef-44b6-af28-9585920e59b4")
+	)
+	(wire
+		(pts
+			(xy 278.13 163.83) (xy 255.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a666f205-2906-42ac-ac32-ceb138c7d3ca")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67a9fa3-b345-467a-96d6-27e25294b8a9")
+	)
+	(wire
+		(pts
+			(xy 33.02 46.99) (xy 33.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67f53db-2b29-498e-af99-7535ca6d1823")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d4128b-20dc-43d2-b833-74bbde83504e")
+	)
+	(wire
+		(pts
+			(xy 278.13 88.9) (xy 279.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadde3ad-9ae1-4f53-8933-635106a1f33a")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4d33de-2cc0-46e5-9815-54b1fa7b767a")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbfc5d3-9527-402b-8e12-30039304fce3")
+	)
+	(wire
+		(pts
+			(xy 144.78 151.13) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebc10bf-4619-4cd7-ba36-5bf9e83c01d1")
+	)
+	(wire
+		(pts
+			(xy 87.63 144.78) (xy 87.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afebcdf1-c6ea-4d89-8d51-6a307c76d46f")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 106.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39b8600-5918-4578-9225-40437b98821a")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 71.12 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b0ee38-1c05-4c35-9e43-8156ca640ca4")
+	)
+	(wire
+		(pts
+			(xy 33.02 19.05) (xy 71.12 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52f4c48-b1d4-497c-a09e-fbfdb465384f")
+	)
+	(wire
+		(pts
+			(xy 35.56 163.83) (xy 54.61 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6932222-6490-4fcd-a57b-2a6eb925ef1f")
+	)
+	(wire
+		(pts
+			(xy 33.02 60.96) (xy 33.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c5d27a-2630-4e34-92aa-0d117b26f46c")
+	)
+	(wire
+		(pts
+			(xy 279.4 88.9) (xy 279.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b869bc6d-9b48-48f5-a016-5846c2b3ec50")
+	)
+	(wire
+		(pts
+			(xy 114.3 39.37) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc33870c-2125-4389-8cee-f32590ed48bb")
+	)
+	(wire
+		(pts
+			(xy 151.13 29.21) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be14df29-e0c4-499a-84d5-89e1972ccb1d")
+	)
+	(wire
+		(pts
+			(xy 128.27 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a95c7e-1cf4-4c94-b8ed-36dccbb35480")
+	)
+	(wire
+		(pts
+			(xy 54.61 53.34) (xy 54.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f9768b-b946-40b9-a73f-1dd396c56145")
+	)
+	(wire
+		(pts
+			(xy 151.13 19.05) (xy 214.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64220a9-9555-4327-ab37-e95cbad060cd")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 85.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69def23-1d0b-4e67-88af-a0d63dc4a1f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 34.29) (xy 100.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ca46c3-ad73-4d6f-ad47-6dec77c0c5d4")
+	)
+	(wire
+		(pts
+			(xy 33.02 34.29) (xy 33.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8495c70-7ed7-4333-b6b9-60a1e3315880")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c882c847-17ce-49b2-b875-67c689d2c52f")
+	)
+	(wire
+		(pts
+			(xy 242.57 52.07) (xy 242.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9568c9b-f65f-4c1f-b84a-f25fda0d85eb")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 54.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1e50de-ef8c-4e9a-9568-57a3605cf196")
+	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf26730-8f86-49cb-b999-0c7166222b21")
+	)
+	(wire
+		(pts
+			(xy 168.91 130.81) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce129d8c-fa25-4074-8390-6ccceb318f29")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 242.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27ffa58-c3bf-4c87-8a16-e902a0363d72")
+	)
+	(wire
+		(pts
+			(xy 228.6 146.05) (xy 228.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da64e636-4fa0-4bdd-916b-c11ee5af2759")
+	)
+	(wire
+		(pts
+			(xy 228.6 158.75) (xy 228.6 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09c630d-dfb4-41c0-b5a8-e38adfa70a83")
+	)
+	(wire
+		(pts
+			(xy 100.33 27.94) (xy 100.33 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13b414a-55cd-4b9f-8796-8b0c5fab7ca3")
+	)
+	(wire
+		(pts
+			(xy 87.63 134.62) (xy 87.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1907141-21bd-4697-ba2f-7965c9e27497")
+	)
+	(wire
+		(pts
+			(xy 242.57 52.07) (xy 261.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e272ab2f-8c66-4ca9-ba7d-49019644d3f3")
+	)
+	(wire
+		(pts
+			(xy 21.59 19.05) (xy 33.02 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4848946-68f5-4333-979a-d2d77735ee18")
+	)
+	(wire
+		(pts
+			(xy 267.97 83.82) (xy 267.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a0e5c2-a31c-44a8-a2b9-cc35015b5260")
+	)
+	(wire
+		(pts
+			(xy 255.27 127) (xy 255.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e543e581-adc2-4bb6-a71b-edbfffdcf45d")
+	)
+	(wire
+		(pts
+			(xy 222.25 146.05) (xy 228.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85cdc21-415f-422e-b114-69a13cc2aa9c")
+	)
+	(wire
+		(pts
+			(xy 21.59 163.83) (xy 22.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e880dcbc-13bb-47b9-a44b-629f45d42267")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacba70c-5092-41b6-b634-07a1569ba07d")
+	)
+	(wire
+		(pts
+			(xy 281.94 19.05) (xy 281.94 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba3ad7d-5847-4afd-9bf2-7faa893f3418")
+	)
+	(wire
+		(pts
+			(xy 87.63 163.83) (xy 128.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3f3742-dd99-4c8d-89ed-bf8cd4b7bd6b")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 128.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd6225d-4f51-413e-8c04-b6db9fe1ea7d")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03a59c1-fc53-4e07-b0f2-c71868e8675c")
+	)
+	(wire
+		(pts
+			(xy 128.27 124.46) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3316d2a-d82e-4d94-a6cd-2ccca546e10d")
+	)
+	(wire
+		(pts
+			(xy 85.09 39.37) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3523eab-e4a0-4f85-8ed6-55d324b46951")
+	)
+	(wire
+		(pts
+			(xy 203.2 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ab6683-e833-4007-b8d6-fab011613520")
+	)
+	(wire
+		(pts
+			(xy 233.68 41.91) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6644384-579a-4d41-92fb-061750b464ef")
+	)
+	(wire
+		(pts
+			(xy 54.61 139.7) (xy 54.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6663183-50fc-4875-8841-ccd190784b02")
+	)
+	(wire
+		(pts
+			(xy 279.4 60.96) (xy 261.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72d048a-187a-44c5-83f6-03c8dea6e77e")
+	)
+	(wire
+		(pts
+			(xy 251.46 78.74) (xy 260.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74dbb53-ff9e-44b9-a4f7-c776e1c5a548")
+	)
+	(wire
+		(pts
+			(xy 168.91 135.89) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cc723e-3e7b-4bae-a5b6-111e582d2a56")
+	)
+	(wire
+		(pts
+			(xy 281.94 99.06) (xy 281.94 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb0ec49-b279-496f-8dec-23d4c8e0bc72")
+	)
+	(wire
+		(pts
+			(xy 196.85 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffda3c76-addb-45ff-bdba-ba2f2db9561a")
+	)
+	(label "Ref1"
+		(at 36.83 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f70fe76-6811-406e-bcf9-5739992ddb09")
+	)
+	(label "Ref1"
+		(at 101.6 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5b98191-fae6-40a3-93d0-38d17d73101b")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0379b4a4-c454-41da-af22-7881c446ac80")
+		(property "Reference" "R17"
+			(at 153.67 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "776977ca-ddfa-403b-8fae-990a715b8c96")
+		)
+		(pin "1"
+			(uuid "fd5bdd5f-1192-4e9b-9488-6ea9cc01337f")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 265.43 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d651f5-d49d-4f61-afc4-daf83912a85c")
+		(property "Reference" "Q10"
+			(at 270.51 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 270.51 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 270.51 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a2c7fb2f-fec6-4b13-b425-dc1217bad093")
+		)
+		(pin "2"
+			(uuid "b4d53ae8-cbd3-4d01-9ff0-0814700e9fe3")
+		)
+		(pin "1"
+			(uuid "9c067d71-6cdd-4ffe-b4d3-e1b75f104fa4")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 33.02 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04088e3c-b32f-4d45-82e7-4b7a4e625541")
+		(property "Reference" "R8"
+			(at 35.56 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 35.56 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 33.02 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f0e9ec2-84fb-4355-8d56-be9622046fd5")
+		)
+		(pin "2"
+			(uuid "f1e0c6b9-0e9c-4cb3-8967-5b6dacfc04c7")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 33.02 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2c5309-fe06-4466-9a20-e67af5a7e947")
+		(property "Reference" "R6"
+			(at 35.56 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 35.56 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2539306-259a-4d11-9013-0e954190c1e4")
+		)
+		(pin "2"
+			(uuid "a6ce4a56-b2ca-47fc-a7ba-3dbe3b750ccc")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 100.33 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f2be484-2c78-4ada-9342-a9c91dd453e3")
+		(property "Reference" "R10"
+			(at 102.616 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.616 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5e2b4f1-e897-4f81-96e7-bc7f7e2d8a6e")
+		)
+		(pin "2"
+			(uuid "5eba4429-021f-41ab-b3e3-60cb5daf1321")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "267d16ee-ba9f-4c69-a608-af591a50ca4a")
+		(property "Reference" "R12"
+			(at 95.25 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 95.25 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8055f12-6d9a-46a0-b048-edfd36671a5c")
+		)
+		(pin "1"
+			(uuid "aac5685e-088c-400e-ad6c-a0bcae83b357")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 85.09 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37a98ced-1c0f-48c4-ad0d-2f219339c747")
+		(property "Reference" "Q7"
+			(at 90.17 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 90.17 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 90.17 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 85.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 85.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 85.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 85.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5aaa9b97-d4aa-4ac4-9427-64a8b7dc1b49")
+		)
+		(pin "2"
+			(uuid "943d7120-d90c-45bf-b280-94382b9e5ac9")
+		)
+		(pin "1"
+			(uuid "f390a488-a515-4e2c-8fa4-fe571b081fd4")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dc11d3f-5f19-4077-8502-532b8cad5f91")
+		(property "Reference" "C4"
+			(at 205.74 116.8462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 205.74 119.3862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4df3b5de-8c04-4910-aad9-6f703321b2e3")
+		)
+		(pin "2"
+			(uuid "a32e2b7c-9151-4594-a1b0-84662f4a37e2")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 21.59 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419f028b-5d87-4bf0-8f6e-b30ccba822d1")
+		(property "Reference" "C3"
+			(at 24.13 40.6462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 24.13 43.1862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 21.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec58943b-00b2-4e43-9dbb-e6ba87af3270")
+		)
+		(pin "1"
+			(uuid "04fe62cd-38f8-4e16-944a-85afa911f80e")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 106.68 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "486e9d6f-a17c-4916-9f6c-9913a1d930ee")
+		(property "Reference" "R15"
+			(at 106.68 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 106.68 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 106.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9217a361-5abb-45da-87db-e21223aedc33")
+		)
+		(pin "1"
+			(uuid "b78ed449-bf56-4241-bd5d-8631396a39e8")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 187.96 46.99 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49cad062-b2b0-4082-84f5-eac48701cdf2")
+		(property "Reference" "Q4"
+			(at 193.04 48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 193.04 45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6bfc3592-599e-4ac8-b702-97c6f0b4ee94")
+		)
+		(pin "2"
+			(uuid "7935d5d3-ac11-446c-a7cf-8420a718fc72")
+		)
+		(pin "1"
+			(uuid "78495d19-ba0a-4960-af9a-508174d54014")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 261.62 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b718b0-ed40-4e8b-95b6-0ff77b08158b")
+		(property "Reference" "R18"
+			(at 264.16 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 264.16 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 261.62 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5616778-ed97-4fe1-a763-b043332d9380")
+		)
+		(pin "2"
+			(uuid "ed068fd0-51ad-4bd0-98fc-d00d7d46a694")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 111.76 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "581c0d29-ac61-4ceb-9811-5c9ad7540b1d")
+		(property "Reference" "Q9"
+			(at 116.84 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 116.84 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f28f1180-1928-4cc2-a506-978bbe094938")
+		)
+		(pin "2"
+			(uuid "4ce93d37-9882-493a-bc33-298097154b07")
+		)
+		(pin "1"
+			(uuid "78198596-0960-420b-bae6-a3bb4c15a4e6")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 33.02 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dbe115e-40d7-4303-abeb-e35e658c38b4")
+		(property "Reference" "R7"
+			(at 35.56 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 35.56 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5efd392d-4983-405a-976b-c3477763cdd8")
+		)
+		(pin "2"
+			(uuid "66eb1abc-e660-4545-ac17-d80328b2d650")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 82.55 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ffddd63-cb54-495c-8cb8-4dac9ce30fb8")
+		(property "Reference" "Q1"
+			(at 87.63 45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 87.63 43.1801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5d749464-dc94-485c-b89e-d7d540a81cfe")
+		)
+		(pin "2"
+			(uuid "cd78cff1-f313-4fe8-b93f-8da62ffa6b45")
+		)
+		(pin "1"
+			(uuid "e2332bd8-432c-42d5-b0fb-c3653a12c84a")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 125.73 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614cdf11-b3c3-451c-9a7d-9fa1f971c03b")
+		(property "Reference" "Q8"
+			(at 130.81 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 130.81 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 125.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 125.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 125.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 125.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9106f2c-d2fd-46d5-84f6-d0c0e9c676a9")
+		)
+		(pin "3"
+			(uuid "d552ee5a-4780-40bf-ba04-c570dfbe8cdf")
+		)
+		(pin "2"
+			(uuid "ab3b01b9-a16c-49ca-a147-8e12aab814fb")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 252.8602 120.8701 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64a23be2-9978-4c18-a860-5e5f8c1875aa")
+		(property "Reference" "Q11"
+			(at 257.9402 119.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 257.9402 122.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 257.9402 122.7751 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 252.8602 120.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 252.8602 120.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 252.8602 120.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 252.8602 120.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "784a1258-48b2-49c5-a40e-c5c582cef026")
+		)
+		(pin "2"
+			(uuid "405ea811-be3f-4af0-b428-3c8874c4a0a3")
+		)
+		(pin "1"
+			(uuid "be578569-71c5-4d01-b313-c46f0a0022c4")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 248.92 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77429a4b-9be9-48a1-bfc3-bc29184a9dad")
+		(property "Reference" "R19"
+			(at 248.92 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 248.92 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 248.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc839b78-9da6-41f8-bed9-c10ad3543d8f")
+		)
+		(pin "2"
+			(uuid "06347c2f-836c-4492-ad8d-bba54949e42c")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 281.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a2ff49d-d0f6-4e75-aa3f-219f4fabffeb")
+		(property "Reference" "R23"
+			(at 284.48 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "300k"
+			(at 284.48 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 281.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c98693e-a181-484c-82c4-559e31dff564")
+		)
+		(pin "2"
+			(uuid "93f6a64d-aced-4368-9747-fd6f395db7bd")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 180.34 72.39 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "954d13fc-a146-403e-91ee-d99aeca784f6")
+		(property "Reference" "Q3"
+			(at 185.42 73.6601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 185.42 71.1201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1f4bfb46-eea4-4da6-b1da-4a68c601b82c")
+		)
+		(pin "2"
+			(uuid "161cc98a-c9e1-45e8-acc5-b46520352dd6")
+		)
+		(pin "1"
+			(uuid "32b52673-61cd-4096-adf5-b20f88ee32c5")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 71.12 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99c839f0-cab7-43d1-95e7-4cd33b53caa9")
+		(property "Reference" "R9"
+			(at 73.66 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.66 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90366539-ec67-48f3-ab76-23c03bebb575")
+		)
+		(pin "1"
+			(uuid "cabdcce4-c2f4-4d92-bb38-b79f63e9db5c")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 223.52 71.12 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f683d87-5ee5-47ca-9a2e-645069415bac")
+		(property "Reference" "Q5"
+			(at 228.6 72.3901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 228.6 69.8501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "84e530c7-0dc1-44ec-98b5-d9dbfd7ce3c2")
+		)
+		(pin "2"
+			(uuid "194a5a7c-b0ac-4365-8651-049a3c222351")
+		)
+		(pin "1"
+			(uuid "fd6a1635-7f83-4523-98c3-34b7b9e8de69")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a38de895-582d-4655-9b42-2eb9f5e06d73")
+		(property "Reference" "R21"
+			(at 199.39 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 199.39 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e260b2f1-8171-4c9e-8ac6-ac7fb56fc1ff")
+		)
+		(pin "2"
+			(uuid "327c7862-efff-43ac-9d3b-060ee3353837")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a85792b6-9542-44fe-8bbd-0afec8e39220")
+		(property "Reference" "#PWR011"
+			(at 22.86 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6234e19-ee21-4a8e-a16c-45739c707d10")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 54.61 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a910c077-fdf4-4b76-8ac0-cd8123f2d145")
+		(property "Reference" "R13"
+			(at 57.15 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 57.15 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 54.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca583e85-f021-43c9-85f5-219299b771f4")
+		)
+		(pin "2"
+			(uuid "f1be3d8e-c9bb-4383-acc4-391dfb0f5814")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 231.14 46.99 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab92fbfd-62f0-4dbc-8e7a-d3db1d4cb33b")
+		(property "Reference" "Q6"
+			(at 236.22 48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 236.22 45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 231.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 231.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 231.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "10ca8015-c81d-4d95-8c27-9897ed5fcf7c")
+		)
+		(pin "2"
+			(uuid "f59b32c9-0198-4655-bd9d-4a8c7302e45f")
+		)
+		(pin "1"
+			(uuid "db019c8c-c2f2-4a4e-b29e-bc8b126da6d7")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7f5dc85-ad2f-4524-843b-224f627dd74e")
+		(property "Reference" "R16"
+			(at 217.17 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 217.17 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f739355-73d6-4c90-b8e0-132f52b445ed")
+		)
+		(pin "2"
+			(uuid "f5624de6-425b-4541-a757-dd694d7ff26c")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 168.91 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be06e4f3-ed2c-48ed-8018-69bd3fe233ff")
+		(property "Reference" "R20"
+			(at 171.45 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 171.45 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 168.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5cacf7a-c999-44c1-8211-ca41e3d81e1f")
+		)
+		(pin "1"
+			(uuid "2c8ba238-d882-45b6-aa11-7a72854f2521")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 228.6 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c949e8cb-a992-4def-9bbf-ed3663da0e5e")
+		(property "Reference" "R22"
+			(at 231.14 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 231.14 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 228.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2842e1c2-f7cc-4516-affd-b7aa7ced665d")
+		)
+		(pin "2"
+			(uuid "3e390503-bc44-4967-bc7d-d94ea910b6eb")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 106.68 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfa1e06-a92e-4601-ab2c-b0fad21f578f")
+		(property "Reference" "R14"
+			(at 106.68 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 106.68 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 106.68 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2825cfaa-a47e-4654-99f0-6be782d1540f")
+		)
+		(pin "1"
+			(uuid "3f7b82d1-8db1-4d93-8de1-0a8a81d7445d")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 111.76 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5ef6d35-289a-455f-93f5-0fe8939b7be1")
+		(property "Reference" "Q2"
+			(at 116.84 45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 116.84 43.1801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 111.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 111.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 111.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "03386a79-c675-4aa1-b587-08fd25b1a050")
+		)
+		(pin "2"
+			(uuid "68362ada-5134-4e46-8704-7a3a45d9ba25")
+		)
+		(pin "1"
+			(uuid "60f900b7-3db3-416e-bfac-2e012b6bb644")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.09 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f033197e-9f6c-4a90-9018-5d3440d31636")
+		(property "Reference" "R11"
+			(at 87.63 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 87.63 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34e8e702-2ea7-4825-8c7c-6af8ce59bef9")
+		)
+		(pin "1"
+			(uuid "bc611bd5-1550-4aee-a465-2f03602b7ed6")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 218.44 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa44874-ac3a-4d6d-bd67-111fc4575b52")
+		(property "Reference" "D1"
+			(at 218.44 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 218.44 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 218.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 218.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 218.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 218.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 218.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69a03efb-901a-438c-aefd-8565896a9c89")
+		)
+		(pin "2"
+			(uuid "5245f8a0-ad4c-4947-97ac-e2c35876f8ef")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/8f4075f3-262b-4b2a-bd49-6eb3447dd04c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
