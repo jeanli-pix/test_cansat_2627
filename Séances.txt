@@ -9,9 +9,9 @@ Assignations (état à la fin de la séance) :
 - Stratégie de développement : tous (fait)
 - Recherche sur le biomimétisme : Lou-Jane (fait)
 - Recherche sur Timer en analogique : Lucie et Florence (fait)
-- Schéma UML : Jean (en cours)
+- Schéma UML : Jean (fait)
 - Recherche sur l'architecture du Cansat : Florence, Lucie, Lou-Jane (non fait)
-- Recherche sur la sortie de l'astronaute : Iftene (en cours)
+- Recherche sur la sortie de l'astronaute : Iftene (fait)
 
 Séance du 06/10/26 :
 
@@ -23,11 +23,18 @@ Tâches du jour par ordre d'importance :
 Assignations (état à la fin de la séance) : 
 - Choisir biomimétisme et mécanisme: tous (fait)
 - Schéma sur N255 : Lucie et Florence (fait)
-- Recherche KiCad du projet de l'année dernière : Lou-Jane (en cours)
+- Recherche KiCad du projet de l'année dernière : Lou-Jane (fait)
 - Schéma UML : Jean (fait)
-- Recherche sur des exemples de valve : Iftene (en cours)
+- Recherche sur des exemples de valve : Iftene (fait)
 
 Séance du 20/10/26 :
-- Recherche KiCad du projet de l'année dernière et commencement du KiCad : Lou-Jane et Jean
-- Recherche système de trompe du papillon : Iftene
+- Recherche KiCad du projet de l'année dernière et commencement du KiCad : Lou-Jane et Jean (fait)
+- Recherche système de trompe du papillon : Iftene (fait)
 - Recherche sur le dimensionnement et l'architecture du Cansat : Lucie et Florence
+
+Séance du 03/11/26 : 
+- Réactualiser le KiCad : Jean
+- Recherche diagrammes (pneumatique avec timer analogique) : Iftene
+- Réactualiser le NE : Florence et Lucie
+- OneShape pour architecture : Lou-Jane
+
