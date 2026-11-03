@@ -43,6 +43,26 @@
 				(justify left top)
 			)
 		)
+		(pin "RELAY_IN" input
+			(at 165.1 114.3 180)
+			(uuid "08d01ed8-bfb2-4c81-a3f3-f446beb4dce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RELAY_OUT" input
+			(at 165.1 132.08 180)
+			(uuid "5cfb08a1-9291-462c-813b-9e08e372cc27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585"
@@ -179,6 +199,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "OUT_NE555" input
+			(at 132.08 123.19 0)
+			(uuid "0e20dcf0-14c7-4d5a-8de0-269bbfe1fe1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_IN" input
+			(at 132.08 139.7 0)
+			(uuid "10c85507-61ce-4d19-91a4-4f790053a667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_OUT" input
+			(at 132.08 160.02 0)
+			(uuid "163bd78f-1be3-4793-953a-2f1a2f8e89f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
