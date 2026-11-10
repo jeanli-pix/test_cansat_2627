@@ -33,8 +33,14 @@ Séance du 20/10/26 :
 - Recherche sur le dimensionnement et l'architecture du Cansat : Lucie et Florence
 
 Séance du 03/11/26 : 
-- Réactualiser le KiCad : Jean
+- Réactualiser le KiCad : Jean (fait)
 - Recherche diagrammes (pneumatique avec timer analogique) : Iftene
-- Réactualiser le NE : Florence et Lucie
-- OneShape pour architecture : Lou-Jane
+- Réactualiser le NE : Florence et Lucie (en cours)
+- OneShape pour architecture : Lou-Jane (en cours) 
+
+Séance du 10/11/26 : 
+- Finir le KiCad (routage, ect) : Iftene
+- OneShape : Lou-Jane et Lucie
+- Finir le NE555 : Florence 
+- Station au sol : Jean et Lou-Jane
 
