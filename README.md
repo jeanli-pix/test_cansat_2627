@@ -157,5 +157,7 @@ Problème de conception PCB détecté tard après la conception (ajoute un nouve
 Soufflerie pas prête pour les tests 
 
 
+## Problèmes rencontrés:
 
+L'écran de la station au sol ne s'allume pas. On pensait qu'il s'agissait d'un problème de court-circuit, cependant des tests ont été effectués avec notre carte avec écran de l'année dernière, donc le souci proviendrait de l'écran. On a également changé de nappe, mais le souci a persisté.
 
