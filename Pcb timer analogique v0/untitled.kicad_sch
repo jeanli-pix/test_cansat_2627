@@ -1739,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 123.19) (xy 58.42 133.35)
+			(xy 52.07 121.92) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 163.83) (xy 58.42 166.37)
+			(xy 52.07 162.56) (xy 52.07 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 138.43) (xy 58.42 158.75)
+			(xy 52.07 137.16) (xy 52.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2468,7 @@
 		(uuid "f19fa26e-81d0-491d-a734-4ea5ffdabf25")
 	)
 	(label "+5V"
-		(at 58.42 123.19 0)
+		(at 52.07 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2478,7 +2478,7 @@
 		(uuid "07781897-f50b-4ad7-9e96-fbc4eade6057")
 	)
 	(label "VREF_TIMER"
-		(at 58.42 148.59 0)
+		(at 52.07 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 166.37 0)
+		(at 52.07 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2837,7 +2837,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bd15f78-5451-4bc7-a952-1904d5a1f4b7")
 		(property "Reference" "#PWR018"
-			(at 58.42 172.72 0)
+			(at 52.07 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,7 +2848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 171.45 0)
+			(at 52.07 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2858,7 +2858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 166.37 0)
+			(at 52.07 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +2869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 166.37 0)
+			(at 52.07 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 166.37 0)
+			(at 52.07 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,7 +3323,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 135.89 0)
+		(at 52.07 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3334,7 +3334,7 @@
 		(fields_autoplaced yes)
 		(uuid "360b2136-86f6-48fd-b0ab-fb51b1b3da99")
 		(property "Reference" "R36"
-			(at 60.96 134.6199 0)
+			(at 54.61 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Value" "30k"
-			(at 60.96 137.1599 0)
+			(at 54.61 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3356,7 +3356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 135.89 0)
+			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 135.89 0)
+			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3378,7 +3378,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 58.42 135.89 0)
+			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 161.29 0)
+		(at 52.07 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4348,7 +4348,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae37aeda-b649-4b1c-8df6-79320c69d76e")
 		(property "Reference" "R38"
-			(at 60.96 160.0199 0)
+			(at 54.61 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4359,7 +4359,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 60.96 162.5599 0)
+			(at 54.61 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4370,7 +4370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 161.29 0)
+			(at 52.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 161.29 0)
+			(at 52.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4392,7 +4392,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 58.42 161.29 0)
+			(at 52.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
