@@ -72,8 +72,54 @@
 		)
 	)
 	(sheet
-		(at 156.21 21.59)
-		(size 107.95 58.42)
+		(at 154.94 35.56)
+		(size 120.65 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3674a57a-a594-4042-addc-99b6c5719943")
+		(property "Sheetname" "Timer"
+			(at 154.94 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 154.94 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 21.59)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -88,7 +134,7 @@
 		)
 		(uuid "8f4075f3-262b-4b2a-bd49-6eb3447dd04c")
 		(property "Sheetname" "NE555"
-			(at 156.21 20.8784 0)
+			(at 243.84 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99,7 +145,7 @@
 			)
 		)
 		(property "Sheetfile" "NE555.kicad_sch"
-			(at 156.21 80.5946 0)
+			(at 243.84 32.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -153,6 +199,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DECLENCHEMENT" input
+			(at 137.16 43.18 0)
+			(uuid "d6f9787f-c48e-474b-8dea-9b6fac81686b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
