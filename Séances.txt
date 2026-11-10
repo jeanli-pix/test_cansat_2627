@@ -39,8 +39,8 @@ Séance du 03/11/26 :
 - OneShape pour architecture : Lou-Jane (en cours) 
 
 Séance du 10/11/26 : 
-- Finir le KiCad (routage, ect) : 
+- Finir le KiCad (routage, ect) : Iftene
 - OneShape : Lou-Jane et Lucie
 - Finir le NE555 : Florence 
-- Station au sol : 
+- Station au sol : Jean et Lou-Jane
 
