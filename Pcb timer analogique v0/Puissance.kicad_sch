@@ -5,183 +5,6 @@
 	(uuid "73547e64-109b-4186-b966-dcb674a8cd83")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -665,7 +488,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Fujitsu_FTR-LYAA005x"
+		(symbol "Relay:Relay_SPDT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -682,7 +505,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Fujitsu_FTR-LYAA005x"
+			(property "Value" "Relay_SPDT"
 				(at 11.43 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -693,7 +516,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(property "Footprint" ""
 				(at 11.43 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -705,19 +528,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-				(at 17.78 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -728,7 +539,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "6A SPST-NO Relay"
+			(property "Description" "Relay SPDT, monostable, EN50005"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -739,7 +550,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYA*"
+			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -750,7 +561,18 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_0"
+			(property "ki_fp_filters" "Relay?SPDT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Relay_SPDT_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -764,7 +586,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_1"
+			(symbol "Relay_SPDT_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -873,6 +695,18 @@
 				)
 				(polyline
 					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
@@ -908,7 +742,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_1_1"
+			(symbol "Relay_SPDT_1_1"
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
@@ -919,7 +753,25 @@
 							)
 						)
 					)
-					(number "13"
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1489,13 +1341,19 @@
 		(uuid "50334d30-8e80-4b56-b4a7-0fc4dc69a258")
 	)
 	(junction
-		(at 128.27 80.01)
+		(at 125.73 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f5a8bac-5efe-4887-8f2a-a5edad17c821")
 	)
 	(junction
-		(at 128.27 63.5)
+		(at 133.35 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e710c32e-2e87-4a2e-8406-0a59a9ea4f6d")
+	)
+	(junction
+		(at 125.73 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee14c5f8-c3f3-41b3-bb4f-e6ef6a8dc041")
@@ -1506,15 +1364,9 @@
 		(color 0 0 0 0)
 		(uuid "eefa2991-6bf1-467c-9c9b-bfece5ac95fe")
 	)
-	(wire
-		(pts
-			(xy 142.24 85.09) (xy 143.51 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12848aae-fd35-44a9-a832-3fe6d7e198fb")
+	(no_connect
+		(at 149.86 77.47)
+		(uuid "1d2ffa2e-071c-4eb1-bcdd-7c7c1b0ee966")
 	)
 	(wire
 		(pts
@@ -1528,17 +1380,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 151.13 72.39)
+			(xy 165.1 85.09) (xy 168.91 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29ab775e-f5da-4003-8e9f-b7351935acd0")
+		(uuid "26a18c62-6b15-49f0-809c-2bf05fe4bf2d")
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 143.51 102.87)
+			(xy 143.51 97.79) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1410,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5) (xy 128.27 68.58)
+			(xy 133.35 80.01) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414905e3-0468-468c-b559-faf88ac1cc51")
+	)
+	(wire
+		(pts
+			(xy 125.73 96.52) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 143.51 92.71)
+			(xy 143.51 85.09) (xy 143.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.31) (xy 116.84 63.5)
+			(xy 114.3 91.44) (xy 114.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 128.27 63.5)
+			(xy 114.3 96.52) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 60.96) (xy 128.27 63.5)
+			(xy 125.73 99.06) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1618,27 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 143.51 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826b5df3-a6f4-4618-9d34-4f46518c61e6")
-	)
-	(wire
-		(pts
-			(xy 166.37 74.93) (xy 165.1 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974dd847-5696-4eec-b468-51f494dba373")
-	)
-	(wire
-		(pts
-			(xy 128.27 73.66) (xy 128.27 80.01)
+			(xy 125.73 86.36) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1648,17 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 166.37 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f322226-2059-44ff-a4b6-8a959966b81f")
-	)
-	(wire
-		(pts
-			(xy 143.51 85.09) (xy 151.13 85.09)
+			(xy 143.51 85.09) (xy 149.86 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 128.27 80.01)
+			(xy 114.3 80.01) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 116.84 80.01)
+			(xy 114.3 86.36) (xy 114.3 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1726,29 +1558,7 @@
 		)
 		(uuid "f69063d9-708b-4aa0-bf8e-eed2f445f585")
 	)
-	(hierarchical_label "RELAY_IN"
-		(shape input)
-		(at 166.37 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45efd6a4-5e48-413a-9b45-6f8a83c72a31")
-	)
-	(hierarchical_label "RELAY_OUT"
-		(shape input)
-		(at 149.86 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c94b3f7-c9f6-4a61-8364-8c266a2d7cf5")
-	)
-	(hierarchical_label "OUT_NE555"
+	(hierarchical_label "EJECT_CMD"
 		(shape input)
 		(at 148.59 115.57 180)
 		(effects
@@ -1759,9 +1569,31 @@
 		)
 		(uuid "804cc787-b440-4a97-ad53-f3900f65cec4")
 	)
+	(hierarchical_label "RELAY_OUT"
+		(shape input)
+		(at 149.86 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af34b8f7-5ad5-4415-a5e8-4cb433be4e1c")
+	)
+	(hierarchical_label "RELAY_IN"
+		(shape input)
+		(at 165.1 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7cf320c-14c9-4bca-9815-f0f0d098306e")
+	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 143.51 96.52 270)
+		(at 143.51 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1772,7 +1604,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bbbef67-96c3-4cc4-8cac-8e0620c57f87")
 		(property "Reference" "D2"
-			(at 146.05 95.2499 90)
+			(at 146.05 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1783,7 +1615,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 146.05 97.7899 90)
+			(at 146.05 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1794,7 +1626,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 139.065 96.52 0)
+			(at 139.065 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 143.51 96.52 0)
+			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1816,7 +1648,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 143.51 96.52 0)
+			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1827,7 +1659,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 143.51 96.52 0)
+			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1838,7 +1670,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 96.52 0)
+			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,6 +1690,89 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 114.3 88.9 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d026a08-e07b-4428-9a14-01df4f4db017")
+		(property "Reference" "C10"
+			(at 116.84 90.1638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 116.84 87.6238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "814cf537-ebb2-42d4-8f10-6dd1439c32fc")
+		)
+		(pin "1"
+			(uuid "1cb006f6-3343-4e28-a958-ec1fe8c81234")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1944,7 +1859,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 142.24 85.09 90)
+		(at 133.35 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1954,7 +1869,7 @@
 		(dnp no)
 		(uuid "6d133cfa-ae2f-449f-b968-16232ccf9e95")
 		(property "Reference" "#PWR09"
-			(at 146.05 85.09 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1965,7 +1880,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 139.192 85.09 90)
+			(at 133.35 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1976,7 +1891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 85.09 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +1902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 85.09 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +1913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 142.24 85.09 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +1937,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 60.96 180)
+		(at 125.73 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2032,7 +1948,7 @@
 		(dnp no)
 		(uuid "886c0cd2-a8bc-4d1f-a5c7-852b0313a5f0")
 		(property "Reference" "#PWR012"
-			(at 128.27 54.61 0)
+			(at 125.73 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +1959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 56.896 0)
+			(at 125.73 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2053,7 +1969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 60.96 0)
+			(at 125.73 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 60.96 0)
+			(at 125.73 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +1991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 60.96 0)
+			(at 125.73 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,8 +2014,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 128.27 71.12 180)
+		(lib_id "Relay:Relay_SPDT")
+		(at 157.48 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2107,31 +2023,123 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9000b6bb-79cd-4762-ad9b-14ee2133877d")
-		(property "Reference" "C5"
-			(at 130.81 69.8435 0)
+		(fields_autoplaced yes)
+		(uuid "8ef73dee-f1aa-4b30-9303-b6d8a81a38b1")
+		(property "Reference" "K2"
+			(at 157.48 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100n"
-			(at 130.556 72.39 0)
+		(property "Value" "JRC-23FHSDC5V"
+			(at 157.48 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 71.12 0)
+			(at 158.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "5619e56f-dc57-4d5d-856e-67f93b6dafdd")
+		)
+		(pin "14"
+			(uuid "13adb4b0-71c7-4e4d-9dbe-486c0cffbb2c")
+		)
+		(pin "A2"
+			(uuid "9838990a-afd8-442b-8b6a-6b0eb35ff4d9")
+		)
+		(pin "12"
+			(uuid "dfce790a-4064-4842-9bbc-5c92d3a7a2cd")
+		)
+		(pin "A1"
+			(uuid "f1bb9dea-4099-498f-b542-2bf4666a12cb")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 125.73 88.9 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a97e30a6-d7fa-4e47-9420-a4a119c15424")
+		(property "Reference" "C12"
+			(at 128.27 90.1638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 128.27 87.6238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2142,7 +2150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 71.12 0)
+			(at 125.73 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2153,7 +2161,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 128.27 71.12 0)
+			(at 125.73 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2163,16 +2171,16 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "79b90216-928f-478c-bdfe-610eabd3a5bd")
-		)
 		(pin "2"
-			(uuid "52c6697e-58fc-491c-b2ea-0e6d258fd916")
+			(uuid "665d0dd4-6e17-4475-aaf2-0246face26a4")
+		)
+		(pin "1"
+			(uuid "fa3e356f-59ab-4724-a59d-8aab39fdefb4")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2250,88 +2258,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 116.84 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfae7919-68f2-4bba-b147-f4ca52a5c819")
-		(property "Reference" "C6"
-			(at 120.65 70.7389 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 120.65 73.2789 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.8748 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 116.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c24ba0b9-cca0-407c-b26c-37bcb23673ee")
-		)
-		(pin "2"
-			(uuid "f5c2b52d-54c0-490f-9631-a7d8ce059094")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2442,94 +2368,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 158.75 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd7305ff-f445-4bfd-9cbe-29b515eed312")
-		(property "Reference" "K1"
-			(at 158.75 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
-			(at 158.75 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 160.02 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 162.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 158.75 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "6d5839fe-723c-4845-aa58-f2706426fc56")
-		)
-		(pin "13"
-			(uuid "90ab73d8-bc56-4956-8265-ba9845f17c61")
-		)
-		(pin "A1"
-			(uuid "4055759f-bf68-4055-918c-36608a2ccd43")
-		)
-		(pin "A2"
-			(uuid "612ba62f-7f7f-405c-9d09-700f7c37b1be")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "K1")
 					(unit 1)
 				)
 			)

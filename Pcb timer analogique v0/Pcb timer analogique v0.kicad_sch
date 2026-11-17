@@ -109,6 +109,26 @@
 				(justify left top)
 			)
 		)
+		(pin "DECLENCHEMENT" input
+			(at 175.26 35.56 90)
+			(uuid "79e6ff78-967c-4abc-ab2b-00a3aae2107c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EJECT_CMD" input
+			(at 186.69 35.56 90)
+			(uuid "e3876528-a178-4932-a664-3c10333ac514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585"
@@ -257,16 +277,6 @@
 				(justify left top)
 			)
 		)
-		(pin "OUT_NE555" input
-			(at 132.08 123.19 0)
-			(uuid "0e20dcf0-14c7-4d5a-8de0-269bbfe1fe1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RELAY_IN" input
 			(at 132.08 139.7 0)
 			(uuid "10c85507-61ce-4d19-91a4-4f790053a667")
@@ -280,6 +290,16 @@
 		(pin "RELAY_OUT" input
 			(at 132.08 160.02 0)
 			(uuid "163bd78f-1be3-4793-953a-2f1a2f8e89f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EJECT_CMD" input
+			(at 132.08 172.72 0)
+			(uuid "14380431-4c48-414b-a03e-7c9fb1c5c10b")
 			(effects
 				(font
 					(size 1.27 1.27)
