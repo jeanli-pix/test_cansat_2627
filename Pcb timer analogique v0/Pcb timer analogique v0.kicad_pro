@@ -416,7 +416,7 @@
         "uuid": "8655f076-a537-47da-aa50-9e4810b54585"
       }
     ],
-    "used_designators": "R5,C10,C12,K2",
+    "used_designators": "#PWR1-3,#PWR10-11,#PWR24-26,D1,D3,U1,U3-5,C2,K1,J4-5",
     "variants": []
   },
   "sheets": [
@@ -427,10 +427,6 @@
     [
       "e6202dab-0ae5-4c84-b951-73ed71c1f609",
       "Detection"
-    ],
-    [
-      "8f4075f3-262b-4b2a-bd49-6eb3447dd04c",
-      "NE555"
     ],
     [
       "f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3",

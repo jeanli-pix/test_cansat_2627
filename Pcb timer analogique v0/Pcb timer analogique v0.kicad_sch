@@ -5,6 +5,112 @@
 	(uuid "8655f076-a537-47da-aa50-9e4810b54585")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 154.94 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18679eb9-fe9a-4d05-8587-03d1dcc0838a")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.18) (xy 154.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0750e199-7ac6-4564-bedf-7cf7ff541757")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18675333-da19-492f-9471-827681e71e79")
+	)
+	(wire
+		(pts
+			(xy 132.08 139.7) (xy 165.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2243a368-dd8a-4ba5-ac29-709c815349ea")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c32cfd-7ee4-4a71-b74c-7673c00b49da")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e38ba45-8373-45a4-87dc-b7324dcd07fb")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6781246d-e469-41df-9378-8f63b3e66d73")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e59b66e-6977-4ad2-9804-994ff0a8000e")
+	)
+	(wire
+		(pts
+			(xy 132.08 146.05) (xy 165.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821260ac-8afa-4d9b-a403-f96a890975c1")
+	)
+	(wire
+		(pts
+			(xy 154.94 43.18) (xy 156.21 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b36c7bc-4d65-400e-9bd5-d01d5d7c8430")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5309f14-45fb-463f-8c07-a075b76e7991")
+	)
 	(sheet
 		(at 165.1 95.25)
 		(size 107.95 66.04)
@@ -44,7 +150,7 @@
 			)
 		)
 		(pin "RELAY_IN" input
-			(at 165.1 114.3 180)
+			(at 165.1 139.7 180)
 			(uuid "08d01ed8-bfb2-4c81-a3f3-f446beb4dce8")
 			(effects
 				(font
@@ -54,8 +160,18 @@
 			)
 		)
 		(pin "RELAY_OUT" input
-			(at 165.1 132.08 180)
+			(at 165.1 146.05 180)
 			(uuid "5cfb08a1-9291-462c-813b-9e08e372cc27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Accelerometre" input
+			(at 165.1 101.6 180)
+			(uuid "351208d4-11a2-43f6-b6e1-e4beb4a1d80f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,75 +226,29 @@
 			)
 		)
 		(pin "DECLENCHEMENT" input
-			(at 175.26 35.56 90)
+			(at 154.94 43.18 180)
 			(uuid "79e6ff78-967c-4abc-ab2b-00a3aae2107c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "EJECT_CMD" input
-			(at 186.69 35.56 90)
+			(at 154.94 72.39 180)
 			(uuid "e3876528-a178-4932-a664-3c10333ac514")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 243.84 21.59)
-		(size 20.32 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "8f4075f3-262b-4b2a-bd49-6eb3447dd04c")
-		(property "Sheetname" "NE555"
-			(at 243.84 20.8784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "NE555.kicad_sch"
-			(at 243.84 32.3346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585"
-					(page "3")
 				)
 			)
 		)
@@ -224,6 +294,16 @@
 		(pin "DECLENCHEMENT" input
 			(at 137.16 43.18 0)
 			(uuid "d6f9787f-c48e-474b-8dea-9b6fac81686b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Accelerometre" input
+			(at 137.16 93.98 0)
+			(uuid "3abc155a-0fd2-4703-9e51-5cab1a25cf83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +368,7 @@
 			)
 		)
 		(pin "RELAY_OUT" input
-			(at 132.08 160.02 0)
+			(at 132.08 146.05 0)
 			(uuid "163bd78f-1be3-4793-953a-2f1a2f8e89f5")
 			(effects
 				(font
@@ -298,7 +378,7 @@
 			)
 		)
 		(pin "EJECT_CMD" input
-			(at 132.08 172.72 0)
+			(at 132.08 118.11 0)
 			(uuid "14380431-4c48-414b-a03e-7c9fb1c5c10b")
 			(effects
 				(font
