@@ -54,3 +54,7 @@ Séance du 24/11/26 :
 - Station au sol : Jean
 - PCB timer analogique : Florence
 - Tamagotchi : Lucie
+Objectifs pour dans 3 semaines :
+- une V0 du Onshape
+- Code
+- Deux PCBs terminés et commandés
