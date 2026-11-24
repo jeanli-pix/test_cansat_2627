@@ -50,3 +50,7 @@ Séance du 17/11/26 :
 - NE555 : Florence 
 - Station au sol : Jean 
 
+Séance du 24/11/26 :
+- Station au sol : Jean
+- PCB timer analogique : Florence
+- Tamagotchi : Lucie
