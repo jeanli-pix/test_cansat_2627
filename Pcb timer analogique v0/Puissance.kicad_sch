@@ -5,201 +5,6 @@
 	(uuid "73547e64-109b-4186-b966-dcb674a8cd83")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP601-xOT"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP601-xOT"
-				(at -1.27 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at -2.54 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single 2.7V to 6.0V Single Supply CMOS Op Amps, SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "single opamp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP601-xOT_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP601-xOT_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -339,194 +144,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -684,7 +301,194 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_DPDT"
+		(symbol "Diode:1N4148WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Relay:G6K-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -701,7 +505,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Relay_DPDT"
+			(property "Value" "G6K-2"
 				(at 16.51 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -713,7 +517,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 16.51 -1.27 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -724,7 +528,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -735,7 +539,7 @@
 					)
 				)
 			)
-			(property "Description" "Relay DPDT, monostable, EN50005"
+			(property "Description" "Miniature 2-pole relay, Single-side Stable"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -746,7 +550,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "2P2T 2-Form-C double dual throw pole"
+			(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -757,7 +561,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay?DPDT*"
+			(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -768,7 +572,17 @@
 					)
 				)
 			)
-			(symbol "Relay_DPDT_0_1"
+			(symbol "G6K-2_0_0"
+				(text "+"
+					(at -9.271 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "G6K-2_0_1"
 				(rectangle
 					(start -15.24 5.08)
 					(end 15.24 -5.08)
@@ -1080,9 +894,9 @@
 					)
 				)
 			)
-			(symbol "Relay_DPDT_1_1"
+			(symbol "G6K-2_1_1"
 				(pin passive line
-					(at 0 -7.62 90)
+					(at -10.16 7.62 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1091,7 +905,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1109,7 +923,25 @@
 							)
 						)
 					)
-					(number "12"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,43 +959,7 @@
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1181,7 +977,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1190,7 +986,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 7.62 270)
+					(at 10.16 -7.62 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1199,7 +995,25 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1217,7 +1031,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1761,28 +1575,16 @@
 		(uuid "1d2ffa2e-071c-4eb1-bcdd-7c7c1b0ee966")
 	)
 	(no_connect
+		(at 149.86 62.23)
+		(uuid "81443731-bbca-4f0f-aa10-3338fd2f5dc2")
+	)
+	(no_connect
+		(at 165.1 64.77)
+		(uuid "baa58f3d-0ecb-4b8c-b4eb-a04e99857d6b")
+	)
+	(no_connect
 		(at 149.86 67.31)
 		(uuid "dc8835b0-b14d-4287-a723-a9c45437b257")
-	)
-	(wire
-		(pts
-			(xy 171.45 64.77) (xy 165.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b771a1-a13c-4062-8c27-28ce6767288c")
-	)
-	(wire
-		(pts
-			(xy 200.66 71.12) (xy 205.74 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6eb7f0-5113-4b10-b2d0-45cd073da5ef")
 	)
 	(wire
 		(pts
@@ -1793,16 +1595,6 @@
 			(type default)
 		)
 		(uuid "26a18c62-6b15-49f0-809c-2bf05fe4bf2d")
-	)
-	(wire
-		(pts
-			(xy 195.58 71.12) (xy 189.23 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7be1a4-8ce5-4977-8dad-ca007c95e8a5")
 	)
 	(wire
 		(pts
@@ -1883,16 +1675,6 @@
 			(type default)
 		)
 		(uuid "653cd11a-614e-4764-bc2e-75f4fef9b8ab")
-	)
-	(wire
-		(pts
-			(xy 189.23 71.12) (xy 189.23 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777bf4e7-e6ec-4690-9b8c-a31e545811a2")
 	)
 	(wire
 		(pts
@@ -1984,37 +1766,6 @@
 		)
 		(uuid "f69063d9-708b-4aa0-bf8e-eed2f445f585")
 	)
-	(label "5V_servomoteur"
-		(at 205.74 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7847238-3c25-4c9d-afac-48a8bf3ec3eb")
-	)
-	(label "5V_servomoteur"
-		(at 149.86 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db5274ca-6ea0-4252-a504-ef418f63b34e")
-	)
-	(hierarchical_label "Connecteur_servomoteur"
-		(shape input)
-		(at 220.98 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "309d5b2d-366d-4529-8329-f87d213f6481")
-	)
 	(hierarchical_label "EJECT_CMD"
 		(shape input)
 		(at 148.59 115.57 180)
@@ -2049,7 +1800,7 @@
 		(uuid "e7cf320c-14c9-4bca-9815-f0f0d098306e")
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Diode:1N4148WS")
 		(at 143.51 93.98 270)
 		(unit 1)
 		(body_style 1)
@@ -2059,7 +1810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f6cb0ca-f6f0-4a76-8816-556b95cb43b0")
+		(uuid "38991483-fa56-479e-b024-1b2a10395fb8")
 		(property "Reference" "D2"
 			(at 146.05 92.7099 90)
 			(show_name no)
@@ -2071,7 +1822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M7"
+		(property "Value" "1N4148WS"
 			(at 146.05 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +1833,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 139.065 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2093,18 +1855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 143.51 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2137,11 +1888,11 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "7883dcd7-3bf5-460e-971c-b5c5480407d5")
-		)
 		(pin "1"
-			(uuid "0e702462-432d-4e9d-8ca8-5157d0400534")
+			(uuid "4fbf8eaa-3258-40ad-a4bf-e2c5363f46cc")
+		)
+		(pin "2"
+			(uuid "e0ad6864-3325-4201-ac3a-f1d5e0014272")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
@@ -2230,84 +1981,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59ddb90d-3221-4fc7-ad22-87115d87f824")
-		(property "Reference" "#PWR025"
-			(at 210.82 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d869580b-b9ba-47c8-99b7-49085b78273f")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2471,262 +2144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ee3c807-98a9-4f7b-903a-41b642f1a0a8")
-		(property "Reference" "#PWR03"
-			(at 171.45 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 171.45 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf6f3199-9f83-439c-abb5-2db275f901c1")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_DPDT")
-		(at 157.48 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "814892ae-2632-4efe-b055-049e274ce62c")
-		(property "Reference" "K1"
-			(at 157.48 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G6K-2F-Y-DC5"
-			(at 157.48 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
-			(at 158.75 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay DPDT, monostable, EN50005"
-			(at 157.48 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A1"
-			(uuid "20376358-6d7a-4c3c-bf17-0377dc1ad898")
-		)
-		(pin "24"
-			(uuid "3237f754-c53f-439b-8f44-a1c2c884a6b3")
-		)
-		(pin "14"
-			(uuid "10840991-cef0-4396-9e96-3965216f06a4")
-		)
-		(pin "21"
-			(uuid "f918f034-ee04-4ddc-978e-118b3d4f6f81")
-		)
-		(pin "22"
-			(uuid "deda3705-31c0-4246-ba3d-bc6c40f8c70f")
-		)
-		(pin "12"
-			(uuid "50be52b4-1d66-409c-9d94-cdc07ccb08fc")
-		)
-		(pin "A2"
-			(uuid "f1942a6e-0726-4349-a21b-d2fe8007f1c7")
-		)
-		(pin "11"
-			(uuid "65fdf254-e659-42b3-9eb5-d214bf68b584")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 198.12 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86480c93-a816-4f08-82c2-c0af78157f16")
-		(property "Reference" "C2"
-			(at 198.374 76.962 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 198.12 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2426721-c82b-4d2c-aa60-80603e415bbb")
-		)
-		(pin "2"
-			(uuid "e5e1333d-db63-40d4-a673-3567e057e8c2")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 125.73 104.14 0)
 		(mirror y)
@@ -2799,84 +2216,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92a777cc-dce6-4d0d-9d8a-a46556b92706")
-		(property "Reference" "#PWR026"
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97420e4b-3786-4a1b-bac7-2bc9a6b8ccd3")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2966,6 +2305,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 157.48 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab005643-503f-40d4-ad97-2eede4fcf146")
+		(property "Reference" "K1"
+			(at 157.48 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 157.48 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 157.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 157.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 157.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ae86e734-2aa9-46b0-b9ba-ad6222e0039d")
+		)
+		(pin "7"
+			(uuid "e7017f97-e12b-4c3d-ba30-d0c2087c6c33")
+		)
+		(pin "8"
+			(uuid "60c024b7-179c-4435-ab0f-2a2195e45d1f")
+		)
+		(pin "2"
+			(uuid "dfe07818-6397-43b7-afe6-b710dd5ece09")
+		)
+		(pin "5"
+			(uuid "e91f9f76-dcae-479c-8961-07a1194edcaf")
+		)
+		(pin "4"
+			(uuid "20e82f8b-e3a6-4882-b3e8-57a0f08ba816")
+		)
+		(pin "1"
+			(uuid "84964e22-5f81-4241-befd-ecefd6154345")
+		)
+		(pin "6"
+			(uuid "383f51a1-b036-4f4d-a754-2daf8c87bc30")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 123.19 0)
 		(unit 1)
@@ -3037,96 +2475,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP601-xOT")
-		(at 213.36 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbf9323e-122a-49de-bcb4-09b87ac98699")
-		(property "Reference" "U5"
-			(at 226.06 62.1598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP601-xOT"
-			(at 226.06 64.6998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf"
-			(at 213.36 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 2.7V to 6.0V Single Supply CMOS Op Amps, SOT-23-5"
-			(at 213.36 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87d14560-5ddf-4bb8-9efc-c5d30cf8f8d1")
-		)
-		(pin "3"
-			(uuid "54714e7b-8926-4ffa-bdd1-e4ee60d108c2")
-		)
-		(pin "2"
-			(uuid "eb8e54b9-271e-405f-b658-39353ea55d66")
-		)
-		(pin "4"
-			(uuid "909493a4-28df-4eb1-9f1b-0e9094399147")
-		)
-		(pin "5"
-			(uuid "577a6d76-c006-4654-87aa-ab3c26ccfeee")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3237,84 +2585,6 @@
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7960057-2485-4360-a2c4-1fadf3afc0a9")
-		(property "Reference" "#PWR010"
-			(at 210.82 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 210.82 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed20f215-59df-44fa-b5d3-a911144258ce")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/f2e5b2fd-dd2f-4fe0-a7ed-b1ce47c429a3"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

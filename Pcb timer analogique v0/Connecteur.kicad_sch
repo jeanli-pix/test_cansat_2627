@@ -163,193 +163,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -1017,22 +830,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 105.41 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c822eb-574d-49d6-99f0-3d3b4b6d658a")
 	)
 	(no_connect
-		(at 186.69 86.36)
+		(at 153.67 74.93)
 		(uuid "288dc385-968c-4130-aca7-f383bc3b1305")
 	)
 	(no_connect
-		(at 186.69 96.52)
+		(at 153.67 85.09)
 		(uuid "5ff25cc9-4967-42df-916b-550e720f9948")
 	)
 	(no_connect
-		(at 186.69 93.98)
+		(at 153.67 82.55)
 		(uuid "d075f986-c9bb-452f-9cb6-3cb5702e7a23")
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 186.69 88.9)
+			(xy 135.89 77.47) (xy 153.67 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1042,17 +976,37 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 147.32 62.23)
+			(xy 109.22 85.09) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9293040a-7ac8-4a4b-8870-dba6f04a158d")
+		(uuid "4f5ad455-482c-40cc-803e-a12449816771")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8c2739-d21a-498b-88df-6d4bcfb66e08")
+	)
+	(wire
+		(pts
+			(xy 109.22 87.63) (xy 105.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a79efc-ee43-4bd3-a67c-1ac1d860e4be")
 	)
 	(hierarchical_label "Accelerometre"
 		(shape input)
-		(at 186.69 91.44 180)
+		(at 153.67 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1063,7 +1017,7 @@
 	)
 	(hierarchical_label "RELAY_IN"
 		(shape input)
-		(at 110.49 62.23 180)
+		(at 85.09 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1074,7 +1028,7 @@
 	)
 	(hierarchical_label "RELAY_OUT"
 		(shape input)
-		(at 110.49 64.77 180)
+		(at 85.09 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1085,7 +1039,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 62.23 0)
+		(at 90.17 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1096,7 +1050,7 @@
 		(fields_autoplaced yes)
 		(uuid "04f93ed6-f2ca-435e-80e7-75bf7bd62e4d")
 		(property "Reference" "J2"
-			(at 118.11 62.2299 0)
+			(at 92.71 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1107,7 +1061,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 118.11 64.7699 0)
+			(at 92.71 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1118,7 +1072,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 115.57 62.23 0)
+			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 62.23 0)
+			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1094,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 62.23 0)
+			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1167,7 +1121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 74.93 270)
+		(at 105.41 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1178,7 +1132,7 @@
 		(fields_autoplaced yes)
 		(uuid "080671e1-2b7c-4c25-a68c-2d5949880678")
 		(property "Reference" "#PWR023"
-			(at 83.82 74.93 0)
+			(at 99.06 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1189,7 +1143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 74.9299 90)
+			(at 101.6 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1200,7 +1154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 74.93 0)
+			(at 105.41 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1211,7 +1165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 74.93 0)
+			(at 105.41 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1222,7 +1176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 74.93 0)
+			(at 105.41 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1325,7 +1279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 88.9 0)
+		(at 135.89 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1336,7 +1290,7 @@
 		(fields_autoplaced yes)
 		(uuid "154b466d-890d-43fa-95dd-5d0abb130859")
 		(property "Reference" "#PWR024"
-			(at 168.91 95.25 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1347,7 +1301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 93.98 0)
+			(at 135.89 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1357,7 +1311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 88.9 0)
+			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,7 +1322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 88.9 0)
+			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1379,7 +1333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 88.9 0)
+			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,86 +1356,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d17856c-9a00-4e80-848c-66a9fbfbfca3")
-		(property "Reference" "#PWR02"
-			(at 139.7 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0973cf9c-9dec-411c-90e4-2ec5500a128d")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/33319a08-5737-46e7-a998-b7a322bcb3e2"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 191.77 88.9 0)
+		(at 158.75 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1491,8 +1367,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32507cdc-b726-4843-8072-db18b3325e60")
-		(property "Reference" "J5"
-			(at 194.31 88.8999 0)
+		(property "Reference" "J4"
+			(at 161.29 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1503,7 +1379,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 194.31 91.4399 0)
+			(at 161.29 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1514,7 +1390,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 191.77 88.9 0)
+			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1525,7 +1401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 88.9 0)
+			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1536,7 +1412,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 88.9 0)
+			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,91 +1439,6 @@
 		)
 		(pin "1"
 			(uuid "307b096c-a371-4588-bc5e-3be5fc14d42b")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/33319a08-5737-46e7-a998-b7a322bcb3e2"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 152.4 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "417247bb-997b-4375-ae0a-80e223222df6")
-		(property "Reference" "J4"
-			(at 154.94 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 154.94 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 152.4 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "756d5589-5e81-4971-8dc1-56021b391bce")
-		)
-		(pin "2"
-			(uuid "e548ae71-c213-43dd-80e9-9caf8e63679d")
-		)
-		(pin "3"
-			(uuid "eb0c9ff2-c6be-4b2f-a2b9-1d833f1e530f")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
@@ -1739,7 +1530,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 186.69 83.82 0)
+		(at 153.67 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1750,7 +1541,7 @@
 		(fields_autoplaced yes)
 		(uuid "588ec4fe-234d-43a4-b370-47e06cfd393a")
 		(property "Reference" "#PWR011"
-			(at 186.69 87.63 0)
+			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1761,7 +1552,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 186.69 78.74 0)
+			(at 153.67 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1771,7 +1562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 83.82 0)
+			(at 153.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1782,7 +1573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 83.82 0)
+			(at 153.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +1584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 83.82 0)
+			(at 153.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,8 +1689,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 95.25 72.39 0)
+		(lib_id "power:+3.3V")
+		(at 105.41 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1908,31 +1699,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90438b12-45df-4910-a081-2fc111db5207")
-		(property "Reference" "J3"
-			(at 97.79 72.3899 0)
+		(uuid "77c23f8e-d10a-4de9-98fd-1535f0d79ff6")
+		(property "Reference" "#PWR02"
+			(at 105.41 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 97.79 74.9299 0)
+		(property "Value" "+3.3V"
+			(at 105.41 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 95.25 72.39 0)
+		(property "Footprint" ""
+			(at 105.41 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +1733,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 72.39 0)
+			(at 105.41 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 105.41 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5a2c47c-548f-428c-a8ad-4cf1706ff58f")
+		)
+		(instances
+			(project "Pcb timer analogique v0"
+				(path "/8655f076-a537-47da-aa50-9e4810b54585/33319a08-5737-46e7-a998-b7a322bcb3e2"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 114.3 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90438b12-45df-4910-a081-2fc111db5207")
+		(property "Reference" "J3"
+			(at 116.84 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 116.84 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 114.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,7 +1823,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 72.39 0)
+			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,8 +1849,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 90.17 72.39 90)
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1990,9 +1859,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92ad80b3-7c43-48ae-9c1e-aebac3ea94aa")
-		(property "Reference" "#PWR022"
-			(at 93.98 72.39 0)
+		(uuid "97458d8a-2a85-4aa1-8033-9c439dfd7ebc")
+		(property "Reference" "#FLG03"
+			(at 96.52 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2002,19 +1871,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 86.36 72.3899 90)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 72.39 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +1893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 72.39 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,86 +1903,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aac4a7f4-7d83-4629-97b4-7877710d702a")
-		)
-		(instances
-			(project "Pcb timer analogique v0"
-				(path "/8655f076-a537-47da-aa50-9e4810b54585/33319a08-5737-46e7-a998-b7a322bcb3e2"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 147.32 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afa5166f-80d3-4222-b139-5cc718e8d4db")
-		(property "Reference" "#PWR01"
-			(at 147.32 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 147.32 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 147.32 59.69 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,12 +1915,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "af38ab21-c605-481a-aa90-36eedfabe74d")
+			(uuid "81d2623b-b2a7-458f-a76a-c17fce75bf38")
 		)
 		(instances
 			(project "Pcb timer analogique v0"
 				(path "/8655f076-a537-47da-aa50-9e4810b54585/33319a08-5737-46e7-a998-b7a322bcb3e2"
-					(reference "#PWR01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

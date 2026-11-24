@@ -5,15 +5,9 @@
 	(uuid "8655f076-a537-47da-aa50-9e4810b54585")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 154.94 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18679eb9-fe9a-4d05-8587-03d1dcc0838a")
-	)
 	(wire
 		(pts
-			(xy 137.16 43.18) (xy 154.94 43.18)
+			(xy 137.16 48.26) (xy 154.94 48.26)
 		)
 		(stroke
 			(width 0)
@@ -90,16 +84,6 @@
 			(type default)
 		)
 		(uuid "821260ac-8afa-4d9b-a403-f96a890975c1")
-	)
-	(wire
-		(pts
-			(xy 154.94 43.18) (xy 156.21 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b36c7bc-4d65-400e-9bd5-d01d5d7c8430")
 	)
 	(wire
 		(pts
@@ -226,7 +210,7 @@
 			)
 		)
 		(pin "DECLENCHEMENT" input
-			(at 154.94 43.18 180)
+			(at 154.94 48.26 180)
 			(uuid "79e6ff78-967c-4abc-ab2b-00a3aae2107c")
 			(effects
 				(font
@@ -292,7 +276,7 @@
 			)
 		)
 		(pin "DECLENCHEMENT" input
-			(at 137.16 43.18 0)
+			(at 137.16 48.26 0)
 			(uuid "d6f9787f-c48e-474b-8dea-9b6fac81686b")
 			(effects
 				(font
